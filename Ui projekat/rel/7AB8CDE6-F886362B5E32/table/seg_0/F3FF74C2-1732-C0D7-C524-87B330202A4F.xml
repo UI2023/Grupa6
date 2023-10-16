@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3FF74C2-1732-C0D7-C524-87B330202A4F" name="Pogoni">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:24:49 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pogon_id" id="7E4EA61D-FE89-FFC2-9861-26FDE9792220">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:25:56 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="1A8514E3-F022-D7D6-1538-99B0402D4880">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:25:56 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FD91D3D-0653-7428-59B7-2681B6B576A1" name="Tipovi_goriva_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:25:56 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E4EA61D-FE89-FFC2-9861-26FDE9792220"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

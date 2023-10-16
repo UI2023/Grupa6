@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="221DEA05-80D7-3184-B46E-7BF2B03740E9" name="Uloge_korisnika">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-16 13:17:09 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="uloga_id" id="36FD3D34-742B-9CA0-1BDB-CF7C66DB6F12">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-16 13:45:24 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="AFCBE572-86A7-38E9-9D53-26941C3760AF">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-16 13:45:24 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="826D43D9-0F35-524C-6A4D-8C0DD71CA218">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-16 13:45:24 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CD48D05-324B-EE2D-E156-1FA90B4F89D8" name="Uloge_korisnika_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-16 13:45:24 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36FD3D34-742B-9CA0-1BDB-CF7C66DB6F12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

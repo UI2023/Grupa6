@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3818CB86-7EAD-7265-B683-4DAB942DE099" name="Motori">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:22:36 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="motor_id" id="1CA238B5-F0B8-0316-5F0A-50CED4FD6475">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:24:24 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_motora" id="9554379A-6F5C-21E6-09C4-627D5219C97A">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:24:24 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zapremina_motora" id="A194B932-3075-FAD1-9F46-C58382F934EF">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:24:24 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="snaga_motora" id="EFB4ACBD-8659-CE8F-0AA0-B4CB5AE70358">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:24:24 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="164E448D-C1A7-76BE-7E73-17268D2723A9" name="Motor_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:24:24 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CA238B5-F0B8-0316-5F0A-50CED4FD6475"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

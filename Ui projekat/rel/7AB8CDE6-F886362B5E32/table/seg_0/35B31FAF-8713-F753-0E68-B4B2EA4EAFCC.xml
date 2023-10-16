@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35B31FAF-8713-F753-0E68-B4B2EA4EAFCC" name="Korisnici">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-15 23:28:59 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="korisnik_id" id="3D07D3A6-AB8E-6867-C6F8-6CD7450D32A4">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-15 23:30:14 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="D8B5CCF8-AF28-A802-DF4F-433B753D3015">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-15 23:30:14 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="900CCDD1-FFCA-59B2-34A3-877B508BE746">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-15 23:30:14 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JMBG" id="576D5257-A67E-8F4A-554C-A58746EFAD7A">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-15 23:32:08 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mail_adresa" id="12815790-7E82-E5EA-3742-0DC42B544A2F">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-15 23:32:08 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefon" id="0AFBB964-56EE-CCD4-5D7F-1C06B25B4DED">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-15 23:32:08 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="83A6454E-AEB0-EC6B-E05D-4451A5239282">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-15 23:32:08 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_korisnika_id" id="AACC5F53-51E7-6085-18C5-1FAACC6A5059">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-16 13:13:40 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uloga_id" id="361701A8-DE04-D117-7523-060CBF163421">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-16 13:48:41 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDBAB997-0921-CD2A-2F69-199A30BBF573" referredColumn="36FD3D34-742B-9CA0-1BDB-CF7C66DB6F12"/>
+</associations>
+</Column>
+<Column name="Firma_firma_id" id="5EF94FE3-8046-1D09-4C71-622AAE5D1EF9">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-16 13:55:54 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4DA6686-0314-E0E5-38D0-4DF213F71E6E" referredColumn="3BA52238-F88B-70A0-CA91-1DCEC1A326E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53037BD8-8D09-E709-4685-BD10FD2EDBC5" name="Korisnik_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-15 23:30:14 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D07D3A6-AB8E-6867-C6F8-6CD7450D32A4"/>
+<colUsage columnID="361701A8-DE04-D117-7523-060CBF163421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8D001FE-97EB-6DF6-CB5A-243E3447FEFB" name="ima">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-16 13:48:41 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="361701A8-DE04-D117-7523-060CBF163421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32E96B02-4FE4-307A-A9FB-2FCBCB23229C" name="imav1">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-16 13:55:54 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EF94FE3-8046-1D09-4C71-622AAE5D1EF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

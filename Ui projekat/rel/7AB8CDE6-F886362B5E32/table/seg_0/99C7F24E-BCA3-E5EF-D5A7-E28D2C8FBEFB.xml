@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99C7F24E-BCA3-E5EF-D5A7-E28D2C8FBEFB" name="Kategorija_najma">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-15 18:29:45 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kategorija_najma_id" id="70B1DD03-8CE3-BF6E-D0F6-44B22A6D7220">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-15 18:30:46 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime_kategorije" id="4BB35C76-18CC-0562-A4DA-7EE1A8176F25">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-15 18:30:46 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D36D6808-C9BD-BEC4-99AD-35F0B25466FA" name="Kategorija_najma_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-15 18:31:29 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70B1DD03-8CE3-BF6E-D0F6-44B22A6D7220"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

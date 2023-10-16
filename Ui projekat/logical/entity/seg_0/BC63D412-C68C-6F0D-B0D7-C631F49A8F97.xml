@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC63D412-C68C-6F0D-B0D7-C631F49A8F97" name="Vozila">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:57:34 UTC</createdTime>
+<generatorID>C4164841-2265-438B-3627-D6241EC61C26</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vozilo id" id="E9EB1A45-C849-75F8-AAA2-6F819CA330E2">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:57:34 UTC</createdTime>
+<generatorID>4EFF2DED-4D07-07E6-4FA6-36363DB36DC0</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="boja" id="9902AA72-9D30-BC28-D03B-D5153AB7029C">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:57:34 UTC</createdTime>
+<generatorID>7183E565-2EFF-27B5-6342-5F440814D313</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena najma" id="6630F47B-AA96-0D5B-62E9-1A0CFCF1E5B1">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:57:34 UTC</createdTime>
+<generatorID>CDA9412F-3341-8896-90C4-B3538FD6CDD8</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Proizvodjaci vozila proizvodjac id" id="34D10879-D54F-4C76-E737-30D2952D40CF">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:57:34 UTC</createdTime>
+<generatorID>9995C375-4220-974A-4A5F-7973AB35F587</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<referedAttribute>77400222-52EC-161F-61DA-01BA8CBE5890</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Motor motor id" id="EE50AAFA-5865-21DD-A309-D8E3CA2CF679">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:57:34 UTC</createdTime>
+<generatorID>C560C916-C8E6-4CC9-76AC-44948E8D3B50</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<referedAttribute>B2402219-CA1F-A9FD-E72C-299D4C2D0F6E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Menjaci menjac id" id="AFD634D2-4E92-058D-914C-B0F165A112B0">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:57:34 UTC</createdTime>
+<generatorID>789BB329-EBCD-1DFC-AD12-C8F410C70AC7</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<referedAttribute>6F508C29-35D7-130C-3366-585DF6815607</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="menjac id" id="A033FE65-6A2E-4D00-CEF4-586451EDE0E6">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:58:22 UTC</createdTime>
+<generatorID>5B349F46-4743-0471-D09C-7560A6EEADDF</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<referedAttribute>6F508C29-35D7-130C-3366-585DF6815607</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95548B75-F5B0-6CED-6D49-59CD3B9B0EB4" name="Vozila PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:57:34 UTC</createdTime>
+<generatorID>DD0F7C51-AD57-78C1-847A-C0706E67C752</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E9EB1A45-C849-75F8-AAA2-6F819CA330E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72F98D48-33C5-80B0-3C22-58C757D5853B" name="Menjaci">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:31:33 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="menjac_id" id="64ACD0A9-9F46-E603-29BA-0B844494FD37">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:32:52 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stepen_prenosa" id="8F595C75-F227-4C5A-A966-ACC0FB29DB3A">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:32:52 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipovi_menjaca_tip_menjaca_id" id="6DAEFB0F-9561-205D-45A3-85BC0B3BC237">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:34:34 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9829A4BD-2C66-5B45-F693-417541EEA163" referredColumn="6B490DA2-8160-6E33-78D7-3901816CF2CE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E859376-5395-F8CD-2AAA-644870F8EF40" name="Menjaci_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:32:52 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64ACD0A9-9F46-E603-29BA-0B844494FD37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F34A422C-5DB3-AF78-C851-8FBE7A02AD49" name="Menjaci__IDX">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:58:49 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5B349F46-4743-0471-D09C-7560A6EEADDF</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="43E3C600-8F85-DAB8-AA94-A4910D964C38" name="Menjaci_Tipovi_menjaca_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-08 11:34:34 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DAEFB0F-9561-205D-45A3-85BC0B3BC237"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

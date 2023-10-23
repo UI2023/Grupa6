@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="528CA2CD-4E35-48E1-98D9-491DA907A4A6" containerWithKeyObject="B1AC76B8-0914-607C-06E3-A0F7F17A4611" localFKIndex="C600CBD1-DA14-1F0A-3307-14733C36C243" name="Vracanje">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="528CA2CD-4E35-48E1-98D9-491DA907A4A6" containerWithKeyObject="B1AC76B8-0914-607C-06E3-A0F7F17A4611" localFKIndex="C600CBD1-DA14-1F0A-3307-14733C36C243" name="Rezervacije_Lokacije_FKv1">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 21:36:31 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<referredTableLongName>Lokacija</referredTableLongName>
+<referredTableLongName>Adrese</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>69924194-D26B-2B90-6610-4ECDF73D9ADE</referredTableID>
 <keyObject>C58EB90E-9370-C91C-AC7F-24932565F296</keyObject>
 <referredKeyID>C58EB90E-9370-C91C-AC7F-24932565F296</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>Lokacija_id</refColNames>
+<refColNames>Adresa</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

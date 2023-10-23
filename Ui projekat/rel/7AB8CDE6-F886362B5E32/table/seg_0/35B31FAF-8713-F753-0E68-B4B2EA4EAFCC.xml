@@ -111,28 +111,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BDBAB997-0921-CD2A-2F69-199A30BBF573" referredColumn="36FD3D34-742B-9CA0-1BDB-CF7C66DB6F12"/>
-</associations>
 </Column>
-<Column name="Firma_firma_id" id="5EF94FE3-8046-1D09-4C71-622AAE5D1EF9">
+<Column name="starost" id="8D71D477-8432-7276-CB0F-457B5F38FF05">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-16 13:55:54 UTC</createdTime>
+<createdTime>2023-10-23 15:56:25 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1000</dataTypeSize>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F4DA6686-0314-E0E5-38D0-4DF213F71E6E" referredColumn="3BA52238-F88B-70A0-CA91-1DCEC1A326E0"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="53037BD8-8D09-E709-4685-BD10FD2EDBC5" name="Korisnik_PK">
+<ind_PK_UK id="53037BD8-8D09-E709-4685-BD10FD2EDBC5" name="Korisnici_PK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 23:30:14 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -144,25 +137,13 @@
 <colUsage columnID="361701A8-DE04-D117-7523-060CBF163421"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D8D001FE-97EB-6DF6-CB5A-243E3447FEFB" name="ima">
+<ind_PK_UK id="9E3C4FE8-9763-4B31-B0FC-2B6ACCF9E381" name="Korisnici__IDX">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-16 13:48:41 UTC</createdTime>
+<createdTime>2023-10-19 18:11:31 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
+<indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="361701A8-DE04-D117-7523-060CBF163421"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="32E96B02-4FE4-307A-A9FB-2FCBCB23229C" name="imav1">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-16 13:55:54 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5EF94FE3-8046-1D09-4C71-622AAE5D1EF9"/>
-</indexColumnUsage>
+<relationGeneratorID>A6B517D2-7022-1A21-87CD-4B69C9C327AE</relationGeneratorID>
 </ind_PK_UK>
 </indexes>
 </Table>

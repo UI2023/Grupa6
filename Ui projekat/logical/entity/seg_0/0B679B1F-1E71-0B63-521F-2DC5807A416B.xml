@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B679B1F-1E71-0B63-521F-2DC5807A416B" name="Korisnici">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>35B31FAF-8713-F753-0E68-B4B2EA4EAFCC</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="korisnik id" id="CA830126-401F-57A5-2237-18C4507DDD59">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>3D07D3A6-AB8E-6867-C6F8-6CD7450D32A4</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="BD73177D-4C04-6636-FB02-E9C513F239EB">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>D8B5CCF8-AF28-A802-DF4F-433B753D3015</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime" id="4EE9D4F2-6FB8-0BCB-0C6D-104A0A1918AC">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>900CCDD1-FFCA-59B2-34A3-877B508BE746</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JMBG" id="30C32EA9-A513-BD65-F1EA-851B629E43F9">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>576D5257-A67E-8F4A-554C-A58746EFAD7A</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mail adresa" id="406E6571-A168-4FA7-AD38-145A2D316C0A">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>12815790-7E82-E5EA-3742-0DC42B544A2F</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefon" id="F5AFF582-A568-FE03-A376-2F3ED680BDB3">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>0AFBB964-56EE-CCD4-5D7F-1C06B25B4DED</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adresa" id="E9482185-63A0-9EEA-4B7F-C9A46E2E3E8C">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>83A6454E-AEB0-EC6B-E05D-4451A5239282</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip korisnika id" id="127805BA-C8A0-7CBB-334C-3AE7F9EC5346">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>AACC5F53-51E7-6085-18C5-1FAACC6A5059</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uloga id" id="8F326ED0-9D19-00B4-D3F6-985A266A856D">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>438D2B7E-D5E0-796A-ACCE-B8AFBFB24933</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<referedAttribute>1C66FE64-6507-D8D6-664E-043DB954460A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Firma firma id" id="45132D23-EC34-D72F-854F-020D4C83BE0E">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>86CB6C82-94A5-10F5-A213-B748AA554550</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<referedAttribute>2A4EA8F4-6B97-4891-F700-13DCDCCD5524</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="osoba id" id="9B0FEDF4-D435-1BB3-2033-F42E6B9A9E8B">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:11:22 UTC</createdTime>
+<generatorID>A6B517D2-7022-1A21-87CD-4B69C9C327AE</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<referedAttribute>E7E23C4C-08E1-8936-D89F-28D0EE347280</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD58C5CA-8931-A1FF-E968-6B49572CF7E0" name="Korisnik PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>53037BD8-8D09-E709-4685-BD10FD2EDBC5</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA830126-401F-57A5-2237-18C4507DDD59</attributeRef>
+<attributeRef>8F326ED0-9D19-00B4-D3F6-985A266A856D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

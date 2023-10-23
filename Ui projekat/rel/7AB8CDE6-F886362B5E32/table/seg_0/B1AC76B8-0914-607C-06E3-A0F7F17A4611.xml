@@ -110,9 +110,33 @@
 <colAssociation fkAssociation="78CB6BD1-FCE6-CC5F-98B4-8ED3ED62E814" referredColumn="361701A8-DE04-D117-7523-060CBF163421"/>
 </associations>
 </Column>
+<Column name="Zaposleni_osoba_id" id="026C648C-E6CA-A220-3BB5-AA3C42C163D0">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:12:37 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_zaposleni_id" id="BD00EEA7-EB12-2D14-38F1-251FE28AC73C">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:11:14 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3249D472-631A-E671-3BD7-87A78D02405A" referredColumn="8D8D2239-3275-2703-2C4B-BEE152DE1B40"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="096B41FF-4885-BCCA-44F2-D9ACF2F87C94" name="Rezervacija_PK">
+<ind_PK_UK id="096B41FF-4885-BCCA-44F2-D9ACF2F87C94" name="Rezervacije_PK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 20:17:13 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -123,7 +147,7 @@
 <colUsage columnID="1CDF5F54-F616-7DD7-839A-A976BE63F123"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C600CBD1-DA14-1F0A-3307-14733C36C243" name="Vracanje">
+<ind_PK_UK id="C600CBD1-DA14-1F0A-3307-14733C36C243" name="Rezervacije_Lokacije_FKv1">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 21:36:31 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -133,7 +157,7 @@
 <colUsage columnID="86424F32-39E4-2743-5680-EC6E24729BC1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9B508068-B24A-BD4E-814B-8BB2663E97D4" name="preuzimanje">
+<ind_PK_UK id="9B508068-B24A-BD4E-814B-8BB2663E97D4" name="Rezervacije_Lokacije_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 21:36:54 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -143,7 +167,7 @@
 <colUsage columnID="CA6CAED3-464C-8BBE-F279-9FC798A7FFDA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B3BD9C19-35B9-B3C3-15CD-0A589C123472" name="Rezervacija_Vozila_FK">
+<ind_PK_UK id="B3BD9C19-35B9-B3C3-15CD-0A589C123472" name="Rezervacije_Vozila_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 21:38:02 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -153,7 +177,7 @@
 <colUsage columnID="2AC06E61-135C-28BE-317A-2E701AD0A0D3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E3E8CF8B-2EFF-5B41-7108-5CAA89B59E1D" name="pravi">
+<ind_PK_UK id="E3E8CF8B-2EFF-5B41-7108-5CAA89B59E1D" name="Rezervacije_Korisnici_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 23:32:15 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -162,6 +186,16 @@
 <indexColumnUsage>
 <colUsage columnID="FC8C6BF7-FA9B-9F50-EC95-FE807FA7B827"/>
 <colUsage columnID="35CE3886-92A2-5735-0D6A-6D8618507CCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F4CF906-8223-BA13-7F54-BD4C07E0B935" name="Rezervacije_Zaposleni_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:12:37 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD00EEA7-EB12-2D14-38F1-251FE28AC73C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

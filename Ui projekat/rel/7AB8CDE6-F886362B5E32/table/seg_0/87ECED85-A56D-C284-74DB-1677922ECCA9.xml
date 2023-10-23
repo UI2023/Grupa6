@@ -57,7 +57,7 @@
 <colUsage columnID="8B9F8B43-652D-FE39-3F34-EB0A0ED0E6E3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CDFC59A3-E6D9-E779-F49A-BDBDBCC5AB1C" name="pripada">
+<ind_PK_UK id="CDFC59A3-E6D9-E779-F49A-BDBDBCC5AB1C" name="Gradovi_Drzave_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-16 12:58:30 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>

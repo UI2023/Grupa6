@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C6EB221A-E341-9B4C-5D77-1F1D169A9E07" containerWithKeyObject="C4164841-2265-438B-3627-D6241EC61C26" localFKIndex="F28F6FEE-00E8-E27A-4E2C-FAFEC11B4405" name="pripada_kategoriji">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C6EB221A-E341-9B4C-5D77-1F1D169A9E07" containerWithKeyObject="C4164841-2265-438B-3627-D6241EC61C26" localFKIndex="F28F6FEE-00E8-E27A-4E2C-FAFEC11B4405" name="Vozila_Kategorija_najma_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 18:31:32 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<referredTableLongName>Kategorija_najma</referredTableLongName>
+<referredTableLongName>Kategorije_najma</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>99C7F24E-BCA3-E5EF-D5A7-E28D2C8FBEFB</referredTableID>
 <keyObject>D36D6808-C9BD-BEC4-99AD-35F0B25466FA</keyObject>

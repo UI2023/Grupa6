@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E469FF9-56C6-CE05-5627-145173DC88A5" name="Poslovne_Rezervacije">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 15:50:14 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Firma_firma_id" id="94A7E00D-2895-D88C-9EC5-6D08DAAC0478">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:39:40 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A94CF491-3A9B-B602-4A30-F7ED1E5A5BBD" referredColumn="3BA52238-F88B-70A0-CA91-1DCEC1A326E0"/>
+</associations>
+</Column>
+<Column name="Filijale_filijala_id" id="AC09CADE-5579-4009-28FD-6F4D0D16B878">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:40:04 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56627931-41BA-1CFD-7D46-04606E9EECA9" referredColumn="BBCC97ED-F39D-6BD4-6580-EB7BC4171072"/>
+</associations>
+</Column>
+<Column name="Zaposleni_zaposleni_id" id="CC72A62A-69FF-656F-A510-E5B811B50AF1">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:43:30 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7D30A17-2421-5081-A3DC-733BC2A31750" referredColumn="8D8D2239-3275-2703-2C4B-BEE152DE1B40"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9158A35-DB9B-8DAA-5147-A720683630CD" name="Poslovne_Rezervacije_Firma_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:39:40 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94A7E00D-2895-D88C-9EC5-6D08DAAC0478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95D22DEA-EFBD-A5A9-5778-F4AF5781F6E9" name="Poslovne_Rezervacije_Filijale_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:40:04 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC09CADE-5579-4009-28FD-6F4D0D16B878"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DB28A91-5146-6B54-C8B1-E21A5B40CCEE" name="Poslovne_Rezervacije_Zaposleni_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:43:30 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC72A62A-69FF-656F-A510-E5B811B50AF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

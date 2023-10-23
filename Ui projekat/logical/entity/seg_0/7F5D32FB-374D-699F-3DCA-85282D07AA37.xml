@@ -54,6 +54,7 @@
 <createdTime>2023-10-08 11:57:34 UTC</createdTime>
 <generatorID>A4B16BD6-7CFB-725A-9492-203F7CDFD537</generatorID>
 <ownerDesignName>Ui projekat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
 <item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="false"/>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69924194-D26B-2B90-6610-4ECDF73D9ADE" name="Lokacije">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69924194-D26B-2B90-6610-4ECDF73D9ADE" name="Filijale">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 20:18:43 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Lokacija_id" id="BBCC97ED-F39D-6BD4-6580-EB7BC4171072">
+<Column name="filijala_id" id="BBCC97ED-F39D-6BD4-6580-EB7BC4171072">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 20:19:51 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Ime_lokacije" id="40850352-47DB-B4D1-2616-ACC06A0B7C7F">
+<Column name="Ulica" id="40850352-47DB-B4D1-2616-ACC06A0B7C7F">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 20:19:51 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -44,9 +44,20 @@
 <colAssociation fkAssociation="F79FA3BD-67B4-41E7-9989-E1FB0C93382B" referredColumn="8B9F8B43-652D-FE39-3F34-EB0A0ED0E6E3"/>
 </associations>
 </Column>
+<Column name="Broj" id="FC4F243B-7058-53DA-6BB1-BA3D7C7246E5">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:13:27 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="C58EB90E-9370-C91C-AC7F-24932565F296" name="Lokacija_PK">
+<ind_PK_UK id="C58EB90E-9370-C91C-AC7F-24932565F296" name="Lokacije_PK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 20:19:51 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -57,7 +68,7 @@
 <colUsage columnID="BBCC97ED-F39D-6BD4-6580-EB7BC4171072"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="392E6248-90D5-76BE-8485-42AB1E4495E2" name="sadrzi">
+<ind_PK_UK id="392E6248-90D5-76BE-8485-42AB1E4495E2" name="Lokacije_Gradovi_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-16 13:02:29 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>

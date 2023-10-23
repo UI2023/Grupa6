@@ -26,7 +26,6 @@
 <item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
 <item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -49,4 +48,21 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACC9D339-F9D7-E118-D322-DF0AE13D8AB8" name="Kategorije vozila PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>C3742BE2-71EE-ED9E-7867-2863081375A8</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B951E91C-19FE-4CE8-3E28-54EDD93D7341</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

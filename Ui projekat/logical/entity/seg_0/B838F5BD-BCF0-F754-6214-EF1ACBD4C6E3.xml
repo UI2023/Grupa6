@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B838F5BD-BCF0-F754-6214-EF1ACBD4C6E3" name="Kategorija najma">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>99C7F24E-BCA3-E5EF-D5A7-E28D2C8FBEFB</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Kategorija najma id" id="B51987BC-2501-FD10-70C2-629D92A1A976">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>70B1DD03-8CE3-BF6E-D0F6-44B22A6D7220</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime kategorije" id="9AB98489-15FA-D6C0-0932-B37C54B5A6B4">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>4BB35C76-18CC-0562-A4DA-7EE1A8176F25</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B292EAF1-4D21-8BBA-783A-5A10B35CE84B" name="Kategorija najma PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>D36D6808-C9BD-BEC4-99AD-35F0B25466FA</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B51987BC-2501-FD10-70C2-629D92A1A976</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

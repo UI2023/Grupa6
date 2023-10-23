@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="je" directorySegmentName="seg_0" id="CCF3C3BB-1874-F255-53FA-6B0DF6C12888">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Menjaci Tipovi menjaca FK" directorySegmentName="seg_0" id="CCF3C3BB-1874-F255-53FA-6B0DF6C12888">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-08 11:57:34 UTC</createdTime>
 <generatorID>9829A4BD-2C66-5B45-F693-417541EEA163</generatorID>
@@ -11,7 +11,7 @@
 <sourcePk>85D27178-C2B4-0B8B-3368-11AC384FC510</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>7F5D32FB-374D-699F-3DCA-85282D07AA37</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

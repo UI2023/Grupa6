@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="10184A76-FF03-2D36-8C91-D7CE540B8AA2" containerWithKeyObject="CDCA18EB-241D-A783-5E8D-AC7F40D62EAF" localFKIndex="A67535F6-C4E5-8524-E397-182A99D7B708" name="pokrece">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="10184A76-FF03-2D36-8C91-D7CE540B8AA2" containerWithKeyObject="CDCA18EB-241D-A783-5E8D-AC7F40D62EAF" localFKIndex="A67535F6-C4E5-8524-E397-182A99D7B708" name="Model_Vozila_Motori_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 18:06:56 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<referredTableLongName>Motor</referredTableLongName>
+<referredTableLongName>Motori</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>3818CB86-7EAD-7265-B683-4DAB942DE099</referredTableID>
 <keyObject>164E448D-C1A7-76BE-7E73-17268D2723A9</keyObject>

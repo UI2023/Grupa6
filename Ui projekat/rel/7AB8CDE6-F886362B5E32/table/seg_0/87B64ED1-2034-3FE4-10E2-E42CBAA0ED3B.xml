@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Ime_osiguranja" id="D4AC45F4-CBB0-D594-AA82-88837F8040CF">
+<Column name="Naziv_osiguranja" id="D4AC45F4-CBB0-D594-AA82-88837F8040CF">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-16 00:02:24 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -55,6 +55,42 @@
 <colAssociation fkAssociation="6D986981-695C-62BE-4401-19899336694E" referredColumn="4EFF2DED-4D07-07E6-4FA6-36363DB36DC0"/>
 </associations>
 </Column>
+<Column name="Datum_do" id="670084A1-7DBF-C54D-42DC-BC2DAFAE7152">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:52:05 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_od" id="7D4A00B0-8654-1A1B-1DDD-3E51A96D749A">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:52:05 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip_Osigruanje_tip_osigruanja_id" id="32061424-636A-E82D-762B-CA8337A93D9B">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:58:13 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F265693-5928-0CC0-30AB-86509693E0BA" referredColumn="E5F17E25-85F6-C910-E05E-4C92264C95C0"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="038B48E8-E810-AF1A-A8D4-4D6DE51144FE" name="Osiguranje_PK">
@@ -76,6 +112,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="CE7FCD55-C070-0CDA-EFEB-73204D882942"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="224A6E6F-ABF0-C44F-A9E1-D5ED03DF717B" name="Osiguranje_Tip_Osigruanje_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:58:13 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32061424-636A-E82D-762B-CA8337A93D9B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

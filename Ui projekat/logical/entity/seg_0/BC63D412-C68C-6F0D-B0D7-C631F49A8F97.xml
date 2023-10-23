@@ -124,6 +124,51 @@
 <dataTypeSize>1000</dataTypeSize>
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Model Vozila model vozila id" id="F044D8A2-F611-9482-B80A-278657D4E435">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>39D4CED9-F35F-A4BD-F058-6F320229F17A</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<referedAttribute>213C5F89-9546-033E-28AB-D8B47BCF53AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kategorija najma Kategorija najma id" id="F652C3E3-1C17-B0CC-3BA7-FA291B1B3ABC">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>46D798E7-204E-61F9-ABD8-8587C5A90341</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<referedAttribute>B51987BC-2501-FD10-70C2-629D92A1A976</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipovi goriva gorivo id" id="84649667-5D16-8BD8-F155-14CB9D84BF03">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:10:59 UTC</createdTime>
+<generatorID>8B1786DA-75C0-0847-D90A-200D170202C1</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<referedAttribute>AFED0E59-8BE0-70A1-AEA9-3B0BFBCC4938</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="95548B75-F5B0-6CED-6D49-59CD3B9B0EB4" name="Vozila PK">
@@ -131,6 +176,7 @@
 <createdTime>2023-10-08 11:57:34 UTC</createdTime>
 <generatorID>DD0F7C51-AD57-78C1-847A-C0706E67C752</generatorID>
 <ownerDesignName>Ui projekat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
 <item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="false"/>

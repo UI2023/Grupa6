@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30A2921D-5C90-5F3F-39E3-C60AE889C756" name="Motor">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30A2921D-5C90-5F3F-39E3-C60AE889C756" name="Motori">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-08 11:57:34 UTC</createdTime>
 <generatorID>3818CB86-7EAD-7265-B683-4DAB942DE099</generatorID>
@@ -77,7 +77,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Tipovi goriva gorivo id" id="A2FCAF46-E55B-2806-B487-E7DDB6BB607E">
+<Attribute name="pogon id" id="A2FCAF46-E55B-2806-B487-E7DDB6BB607E">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-08 11:57:34 UTC</createdTime>
 <generatorID>DFCF4DFA-0F10-77B9-6A24-9F7BA960CB01</generatorID>
@@ -99,6 +99,7 @@
 <createdTime>2023-10-08 11:57:34 UTC</createdTime>
 <generatorID>164E448D-C1A7-76BE-7E73-17268D2723A9</generatorID>
 <ownerDesignName>Ui projekat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
 <item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="false"/>

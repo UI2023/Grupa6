@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pripada_kategorji" directorySegmentName="seg_0" id="53359542-28E7-905C-6711-DCF09AAB26A5">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:11:00 UTC</createdTime>
+<generatorID>3CD3D3D9-F8C8-FBC8-A492-9B10853919FD</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<sourcePk>ACC9D339-F9D7-E118-D322-DF0AE13D8AB8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>423939AC-9389-38BB-CF38-BCF6F8C2D4EA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2244BE54-BA6A-3CB7-CF1A-65607799A5E2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

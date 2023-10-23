@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="56627931-41BA-1CFD-7D46-04606E9EECA9" containerWithKeyObject="1E469FF9-56C6-CE05-5627-145173DC88A5" localFKIndex="95D22DEA-EFBD-A5A9-5778-F4AF5781F6E9" name="Poslovne_Rezervacije_Filijale_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:40:04 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<referredTableLongName>Filijale</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>69924194-D26B-2B90-6610-4ECDF73D9ADE</referredTableID>
+<keyObject>C58EB90E-9370-C91C-AC7F-24932565F296</keyObject>
+<referredKeyID>C58EB90E-9370-C91C-AC7F-24932565F296</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>filijala_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

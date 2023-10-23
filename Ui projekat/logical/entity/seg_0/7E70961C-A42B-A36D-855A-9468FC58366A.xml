@@ -56,6 +56,7 @@
 <item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
 <item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>723AA9BF-28CF-711C-1D19-B7C1260D4F84</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -84,6 +85,7 @@
 <createdTime>2023-10-08 11:57:34 UTC</createdTime>
 <generatorID>1E859376-5395-F8CD-2AAA-644870F8EF40</generatorID>
 <ownerDesignName>Ui projekat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
 <item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="false"/>

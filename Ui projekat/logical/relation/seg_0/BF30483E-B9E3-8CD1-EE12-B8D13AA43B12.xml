@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vracanje" directorySegmentName="seg_0" id="BF30483E-B9E3-8CD1-EE12-B8D13AA43B12">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:11:00 UTC</createdTime>
+<generatorID>528CA2CD-4E35-48E1-98D9-491DA907A4A6</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<sourcePk>600D58F6-1EC6-2415-5665-9D2C6B722A44</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>48F3283C-7C41-4BD3-CFBB-66C82E47DC79</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F989B99B-1A34-36E3-F845-CC25CC9C1DB3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDCA18EB-241D-A783-5E8D-AC7F40D62EAF" name="Model_Vozila">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDCA18EB-241D-A783-5E8D-AC7F40D62EAF" name="Modeli_Vozila">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 17:59:48 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -56,7 +56,7 @@
 <colAssociation fkAssociation="82E310BC-8287-CE41-92F8-A4364F44CFE4" referredColumn="64ACD0A9-9F46-E603-29BA-0B844494FD37"/>
 </associations>
 </Column>
-<Column name="Proizvodjaci_vozila_proizvodjac_id" id="88851E49-C7AE-EF4B-34CB-901E68C08912">
+<Column name="proizvodjac_id" id="88851E49-C7AE-EF4B-34CB-901E68C08912">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 18:04:18 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -84,7 +84,7 @@
 <colAssociation fkAssociation="10184A76-FF03-2D36-8C91-D7CE540B8AA2" referredColumn="1CA238B5-F0B8-0316-5F0A-50CED4FD6475"/>
 </associations>
 </Column>
-<Column name="Kategorije_vozila_kategorija_id" id="644E68A5-2EFA-5D7E-4E82-CE75FF027356">
+<Column name="kategorija_id" id="644E68A5-2EFA-5D7E-4E82-CE75FF027356">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 18:07:14 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -97,6 +97,39 @@
 <associations>
 <colAssociation fkAssociation="3CD3D3D9-F8C8-FBC8-A492-9B10853919FD" referredColumn="D3414988-B7BE-5395-1FBC-E093007C1483"/>
 </associations>
+</Column>
+<Column name="broj_vrata" id="6A08CD17-D696-A6C8-6B5C-6F364E2B139C">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:03:23 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_kofera" id="CA44B2CD-F2A7-7C3E-E864-6702CF1D7B86">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:03:23 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_osoba" id="CA6FAB11-EAC7-5205-E0DC-FB65810F28F4">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-23 16:06:33 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -111,7 +144,7 @@
 <colUsage columnID="21E8E582-68B0-CFE5-6326-A7A1A95947C9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AC915009-B61A-D0A8-F2AA-733137B6712E" name="koristiv1">
+<ind_PK_UK id="AC915009-B61A-D0A8-F2AA-733137B6712E" name="Model_Vozila_Menjaci_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 18:03:36 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -131,7 +164,7 @@
 <colUsage columnID="88851E49-C7AE-EF4B-34CB-901E68C08912"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A67535F6-C4E5-8524-E397-182A99D7B708" name="pokrece">
+<ind_PK_UK id="A67535F6-C4E5-8524-E397-182A99D7B708" name="Model_Vozila_Motori_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 18:06:56 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -141,7 +174,7 @@
 <colUsage columnID="85E69D24-D955-861B-3190-AAC79A83ABD4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5B586C12-95AD-DA6C-845D-4DA587D6B3E8" name="pripada_kategorji">
+<ind_PK_UK id="5B586C12-95AD-DA6C-845D-4DA587D6B3E8" name="Model_Vozila_Kategorije_vozila_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 18:07:14 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>

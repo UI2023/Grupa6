@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vozila_Model_Vozila_FK" directorySegmentName="seg_0" id="39D4CED9-F35F-A4BD-F058-6F320229F17A">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:11:00 UTC</createdTime>
+<generatorID>91FA166F-60A9-1863-DAD9-807C5AF52DB4</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<sourcePk>E5099F34-9081-D769-3853-338001188D19</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2244BE54-BA6A-3CB7-CF1A-65607799A5E2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BC63D412-C68C-6F0D-B0D7-C631F49A8F97</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

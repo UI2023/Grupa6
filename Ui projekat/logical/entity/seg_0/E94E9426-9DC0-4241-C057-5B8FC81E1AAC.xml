@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E94E9426-9DC0-4241-C057-5B8FC81E1AAC" name="Tipovi goriva">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E94E9426-9DC0-4241-C057-5B8FC81E1AAC" name="Pogoni">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-08 11:57:34 UTC</createdTime>
 <generatorID>F3FF74C2-1732-C0D7-C524-87B330202A4F</generatorID>
@@ -17,7 +17,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="gorivo id" id="AFED0E59-8BE0-70A1-AEA9-3B0BFBCC4938">
+<Attribute name="pogon id" id="AFED0E59-8BE0-70A1-AEA9-3B0BFBCC4938">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-08 11:57:34 UTC</createdTime>
 <generatorID>7E4EA61D-FE89-FFC2-9861-26FDE9792220</generatorID>
@@ -31,7 +31,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="naziv goriva" id="68240788-F51F-A4E3-6601-9B2D1A3DDB1E">
+<Attribute name="Naziv" id="68240788-F51F-A4E3-6601-9B2D1A3DDB1E">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-08 11:57:34 UTC</createdTime>
 <generatorID>1A8514E3-F022-D7D6-1538-99B0402D4880</generatorID>
@@ -54,6 +54,7 @@
 <createdTime>2023-10-08 11:57:34 UTC</createdTime>
 <generatorID>5FD91D3D-0653-7428-59B7-2681B6B576A1</generatorID>
 <ownerDesignName>Ui projekat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
 <item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="false"/>

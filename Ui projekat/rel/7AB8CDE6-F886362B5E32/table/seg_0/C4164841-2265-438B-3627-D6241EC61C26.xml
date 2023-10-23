@@ -71,6 +71,19 @@
 <colAssociation fkAssociation="CD712A03-3E2A-6D67-5DFD-E500AD524A25" referredColumn="7E4EA61D-FE89-FFC2-9861-26FDE9792220"/>
 </associations>
 </Column>
+<Column name="Cena_najma" id="E3C52483-8D1A-D80C-6D06-98AC158DB5B6">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:11:31 UTC</createdTime>
+<generatorID>6630F47B-AA96-0D5B-62E9-1A0CFCF1E5B1</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="DD0F7C51-AD57-78C1-847A-C0706E67C752" name="Vozila_PK">
@@ -95,6 +108,14 @@
 <colUsage columnID="4EFF2DED-4D07-07E6-4FA6-36363DB36DC0"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="A744E662-A0A6-690C-1426-702F4379BD54" name="Vozila__IDX">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-19 18:11:31 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5B349F46-4743-0471-D09C-7560A6EEADDF</relationGeneratorID>
+</ind_PK_UK>
 <ind_PK_UK id="18E50322-BD90-BAFF-E66C-D93C6AA91F5A" name="Vozila_Model_Vozila_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 18:08:51 UTC</createdTime>
@@ -105,7 +126,7 @@
 <colUsage columnID="0E826FF3-312F-3A85-43A0-2A006EE94324"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F28F6FEE-00E8-E27A-4E2C-FAFEC11B4405" name="pripada_kategoriji">
+<ind_PK_UK id="F28F6FEE-00E8-E27A-4E2C-FAFEC11B4405" name="Vozila_Kategorija_najma_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 18:31:32 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
@@ -115,7 +136,7 @@
 <colUsage columnID="8AC7C617-AE91-B5E8-3978-EDE033EF59AD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8A512D10-572A-4A98-93C8-265C7BED54F1" name="koristi">
+<ind_PK_UK id="8A512D10-572A-4A98-93C8-265C7BED54F1" name="Vozila_Pogoni_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 18:31:55 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>

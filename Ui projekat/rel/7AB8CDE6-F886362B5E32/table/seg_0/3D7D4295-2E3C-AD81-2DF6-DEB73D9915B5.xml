@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="221DEA05-80D7-3184-B46E-7BF2B03740E9" name="Uloge_korisnika">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D7D4295-2E3C-AD81-2DF6-DEB73D9915B5" name="Sektori">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-16 13:17:09 UTC</createdTime>
+<createdTime>2023-10-23 16:12:25 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<ordsAlias>table_20</ordsAlias>
+<ordsAlias>table_24</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="uloga_id" id="36FD3D34-742B-9CA0-1BDB-CF7C66DB6F12">
+<Column name="sektor_id" id="EFCAC328-7D01-4DA0-8A23-D58AC5812A08">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-16 13:45:24 UTC</createdTime>
+<createdTime>2023-10-23 16:16:01 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,21 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Naziv" id="AFCBE572-86A7-38E9-9D53-26941C3760AF">
+<Column name="naziv" id="DFC0E961-6BEF-5783-6F76-7B46A17815D4">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-16 13:45:24 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1000</dataTypeSize>
-<ownDataTypeParameters>1000,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Opis" id="826D43D9-0F35-524C-6A4D-8C0DD71CA218">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-16 13:45:24 UTC</createdTime>
+<createdTime>2023-10-23 16:16:01 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,15 +32,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3CD48D05-324B-EE2D-E156-1FA90B4F89D8" name="Uloge_korisnika_PK">
+<ind_PK_UK id="46DB6DB8-57AD-087D-054A-835457EB7FD2" name="Sektori_PK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-16 13:45:24 UTC</createdTime>
+<createdTime>2023-10-23 16:16:01 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="36FD3D34-742B-9CA0-1BDB-CF7C66DB6F12"/>
+<colUsage columnID="EFCAC328-7D01-4DA0-8A23-D58AC5812A08"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

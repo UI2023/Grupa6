@@ -58,9 +58,9 @@
 <colUsage columnID="64ACD0A9-9F46-E603-29BA-0B844494FD37"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F34A422C-5DB3-AF78-C851-8FBE7A02AD49" name="Menjaci__IDX">
+<ind_PK_UK id="D4BA88EA-CAB6-EB0C-9657-C223E7B60276" name="Menjaci__IDX">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-08 11:58:49 UTC</createdTime>
+<createdTime>2023-10-19 18:11:31 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>

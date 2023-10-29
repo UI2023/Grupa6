@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pripada" directorySegmentName="seg_0" id="9C6F593E-2214-D06D-ADF5-4EF667F29078">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Gradovi Drzave FK" directorySegmentName="seg_0" id="9C6F593E-2214-D06D-ADF5-4EF667F29078">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:11:00 UTC</createdTime>
 <generatorID>4DBBBA4F-4794-D838-8405-A365B08431CC</generatorID>

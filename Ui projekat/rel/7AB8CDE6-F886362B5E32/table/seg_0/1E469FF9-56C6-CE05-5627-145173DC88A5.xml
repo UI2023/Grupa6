@@ -8,21 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Firma_firma_id" id="94A7E00D-2895-D88C-9EC5-6D08DAAC0478">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:39:40 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1000</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A94CF491-3A9B-B602-4A30-F7ED1E5A5BBD" referredColumn="3BA52238-F88B-70A0-CA91-1DCEC1A326E0"/>
-</associations>
-</Column>
 <Column name="Filijale_filijala_id" id="AC09CADE-5579-4009-28FD-6F4D0D16B878">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-23 16:40:04 UTC</createdTime>
@@ -53,16 +38,6 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="C9158A35-DB9B-8DAA-5147-A720683630CD" name="Poslovne_Rezervacije_Firma_FK">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:39:40 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="94A7E00D-2895-D88C-9EC5-6D08DAAC0478"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="95D22DEA-EFBD-A5A9-5778-F4AF5781F6E9" name="Poslovne_Rezervacije_Filijale_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-23 16:40:04 UTC</createdTime>

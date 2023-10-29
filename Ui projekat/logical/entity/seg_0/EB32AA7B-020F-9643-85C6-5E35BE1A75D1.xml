@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB32AA7B-020F-9643-85C6-5E35BE1A75D1" name="Istorija poslova">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>1FDC916D-67F3-5C27-2337-AB23465A95DA</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="datum od" id="A30196E9-AA13-46A4-8709-9F35AE00C0F0">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>1FA9D268-59B3-62BC-C868-C63570C9BED2</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum do" id="84CC5C98-456E-F526-E795-23963EEBBD91">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>7A97E650-A7D4-4C70-5CFA-A80CE8BF14B9</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="job history id" id="F780987E-F4BA-DE47-E685-61D44C9EDB82">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>94E39B86-BD66-A623-F42F-61D36C41ED8D</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Radno mesto radno mesto id" id="2A5FE9EF-CBAC-CFBE-E336-2F1F9B7CE53D">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>79754070-CF48-F91B-1648-B7FD5CE48E17</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<referedAttribute>31AC0A53-53EA-7EA3-6B24-17A1517F4945</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7180DD87-29EF-8B03-8246-36F227A883A8" name="Istorija poslova PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>EA3F4014-7F43-E6BB-311F-91C710012AFF</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F780987E-F4BA-DE47-E685-61D44C9EDB82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

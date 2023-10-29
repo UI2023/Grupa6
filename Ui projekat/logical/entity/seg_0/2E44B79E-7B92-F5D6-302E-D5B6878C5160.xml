@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E44B79E-7B92-F5D6-302E-D5B6878C5160" name="Sektori">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>3D7D4295-2E3C-AD81-2DF6-DEB73D9915B5</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sektor id" id="C6DEF6F6-8E6A-B9EA-0ABB-B2FD7A9AED11">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>EFCAC328-7D01-4DA0-8A23-D58AC5812A08</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="2097BC30-7776-79E8-529F-01B4F94B6457">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>DFC0E961-6BEF-5783-6F76-7B46A17815D4</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F254D5D2-43BB-78EA-E75E-0C90450603CA" name="Sektori PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>46DB6DB8-57AD-087D-054A-835457EB7FD2</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C6DEF6F6-8E6A-B9EA-0ABB-B2FD7A9AED11</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

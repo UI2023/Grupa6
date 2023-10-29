@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Poslovne_Rezervacije_Filijale_FK" directorySegmentName="seg_0" id="465C1C0F-AB9F-B5F9-12AF-EE9F915DEC97">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>56627931-41BA-1CFD-7D46-04606E9EECA9</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<sourcePk>600D58F6-1EC6-2415-5665-9D2C6B722A44</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>48F3283C-7C41-4BD3-CFBB-66C82E47DC79</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EDECC71F-6853-708E-7A23-BA601C5A3356</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

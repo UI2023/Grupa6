@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EA549DD-6FCD-DE69-EB08-93749D69818F" name="Registracija">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:45:35 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="registracija_id" id="CA924C77-D6AD-071E-7485-C5CA28FBC049">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:47:18 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_registrovanja" id="F43ACF8F-F595-053D-5B06-68A318A4BC69">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:47:18 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_isteka" id="44301583-57D8-B8CA-C56D-22167F2B8945">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:47:18 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saobracajna_dozvola" id="05628999-CCF3-8C90-BF54-39D7631069A1">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:47:18 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vozila_vozilo_id" id="84BEF23B-303E-D040-8A29-1118D56A3787">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:00:21 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="638A54E3-F2EA-130B-C0DC-C861559BD18F" referredColumn="4EFF2DED-4D07-07E6-4FA6-36363DB36DC0"/>
+</associations>
+</Column>
+<Column name="Tehnicki_pregled_tehnicki_pregled_id" id="6ABE782E-E184-6A67-BD47-D8714EF2D613">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:28:48 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25306C3B-89C8-A7D4-4EB3-D99F6B500049" referredColumn="A44C7F91-671B-A22C-DD52-7551104F515B"/>
+</associations>
+</Column>
+<Column name="Servisni_centar_servisni_centar_id" id="513D8168-C109-1A96-C4C4-147AD1A4D370">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:35:09 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59A52F08-8E31-4800-CDD5-5C443CCEDDA3" referredColumn="039430E3-EF39-13A7-E7A9-EE02EEAF87D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="733AADCB-DDAE-8C7E-07A9-C1974EC3F30D" name="Registracija_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:47:18 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA924C77-D6AD-071E-7485-C5CA28FBC049"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F3943F6-BF08-48EC-B3DA-02E67FDCEC2B" name="Registracija__IDX">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:00:35 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84BEF23B-303E-D040-8A29-1118D56A3787"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDE2F138-C315-F757-FC17-5606A4ECC91D" name="Registracija_Vozila_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:00:21 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84BEF23B-303E-D040-8A29-1118D56A3787"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0CE79FE-A736-5645-9AED-3EBBAF8FBAAC" name="Registracija_Tehnicki_pregled_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:28:48 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ABE782E-E184-6A67-BD47-D8714EF2D613"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADD67152-172B-BA08-3A54-E6E915520454" name="Registracija_Servisni_centar_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:35:09 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="513D8168-C109-1A96-C4C4-147AD1A4D370"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

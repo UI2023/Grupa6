@@ -31,7 +31,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Ime osiguranja" id="B42E6B9B-B7CA-714C-45F8-B4041A885355">
+<Attribute name="Naziv osiguranja" id="B42E6B9B-B7CA-714C-45F8-B4041A885355">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:10:59 UTC</createdTime>
 <generatorID>D4AC45F4-CBB0-D594-AA82-88837F8040CF</generatorID>
@@ -72,6 +72,66 @@
 <item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
 </engineerTo>
 <referedAttribute>E9EB1A45-C849-75F8-AAA2-6F819CA330E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum do" id="D1DF4473-9DC1-AB2D-D172-8EA09E0B8419">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>670084A1-7DBF-C54D-42DC-BC2DAFAE7152</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum od" id="887E137C-FA6F-ED0C-47F0-FCDAFF69F089">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>7D4A00B0-8654-1A1B-1DDD-3E51A96D749A</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tip Osigruanje tip osigruanja id" id="9712C0C4-29A1-7B33-AA25-2F4F3F20E316">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>0F76BB9F-27F3-417D-C917-19B4A1E01207</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<referedAttribute>C119ABAC-3255-606C-DB65-E3D7EE3FE502</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Osiguravajuca kuca osiguravajuca kuca id" id="A58AA355-30BE-47D6-86E7-C7D9E219D560">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>49CB014F-F6DC-8CA3-6F8B-808AACD1F3AD</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<referedAttribute>EDF44DAD-6733-D3A5-EFFD-16CA30E9640A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

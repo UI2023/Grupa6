@@ -91,6 +91,20 @@
 <colAssociation fkAssociation="6F265693-5928-0CC0-30AB-86509693E0BA" referredColumn="E5F17E25-85F6-C910-E05E-4C92264C95C0"/>
 </associations>
 </Column>
+<Column name="Osiguravajuca_kuca_osiguravajuca_kuca_id" id="A9ADF886-5787-AA25-588F-003E337F1BA7">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:07:27 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F33F1D9-5A08-D194-AEFC-B378CA638A37" referredColumn="4452122A-A94F-D3EF-6A8B-68A1E4418BDB"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="038B48E8-E810-AF1A-A8D4-4D6DE51144FE" name="Osiguranje_PK">
@@ -122,6 +136,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="32061424-636A-E82D-762B-CA8337A93D9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6ABD1C49-FEB1-C152-979F-BFCA9DCB9BDC" name="Osiguranje_Osiguravajuca_kuca_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:07:27 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9ADF886-5787-AA25-588F-003E337F1BA7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

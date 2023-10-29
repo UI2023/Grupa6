@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2244BE54-BA6A-3CB7-CF1A-65607799A5E2" name="Model Vozila">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2244BE54-BA6A-3CB7-CF1A-65607799A5E2" name="Modeli Vozila">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:10:59 UTC</createdTime>
 <generatorID>CDCA18EB-241D-A783-5E8D-AC7F40D62EAF</generatorID>
@@ -76,9 +76,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1000</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Proizvodjaci vozila proizvodjac id" id="386FE9CF-8573-8292-5D0A-7BEC2319BD74">
+<Attribute name="proizvodjac id" id="386FE9CF-8573-8292-5D0A-7BEC2319BD74">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:10:59 UTC</createdTime>
 <generatorID>38F41B60-18FD-8C6C-C34F-ACD0A13C1E31</generatorID>
@@ -108,7 +108,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Kategorije vozila kategorija id" id="886F26A0-04B3-41E7-7F0C-34403218D170">
+<Attribute name="kategorija id" id="886F26A0-04B3-41E7-7F0C-34403218D170">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:10:59 UTC</createdTime>
 <generatorID>53359542-28E7-905C-6711-DCF09AAB26A5</generatorID>
@@ -118,6 +118,51 @@
 <item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
 </engineerTo>
 <referedAttribute>B951E91C-19FE-4CE8-3E28-54EDD93D7341</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj vrata" id="A7F9D9A4-9278-F886-AADE-88B134055E2F">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>6A08CD17-D696-A6C8-6B5C-6F364E2B139C</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj kofera" id="8B6611BE-EF35-7371-FAE0-A760AE24F95B">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>CA44B2CD-F2A7-7C3E-E864-6702CF1D7B86</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj osoba" id="FD3D0499-1FD4-989B-F94B-90DA14C23803">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>CA6FAB11-EAC7-5205-E0DC-FB65810F28F4</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

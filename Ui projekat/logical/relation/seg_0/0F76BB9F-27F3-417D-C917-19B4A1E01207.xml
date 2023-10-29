@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Osiguranje_Tip_Osigruanje_FK" directorySegmentName="seg_0" id="0F76BB9F-27F3-417D-C917-19B4A1E01207">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>6F265693-5928-0CC0-30AB-86509693E0BA</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<sourcePk>09F282F3-DC5D-C3F5-F9C5-BC58705DA112</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8DC8D5A9-3168-F37B-1219-CBFCFA32FA66</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>85A59431-7491-26E7-F16F-F86A1451C40C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

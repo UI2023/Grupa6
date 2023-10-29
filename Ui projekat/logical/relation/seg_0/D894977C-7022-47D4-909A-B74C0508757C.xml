@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zaposleni_Radno_mesto_FK" directorySegmentName="seg_0" id="D894977C-7022-47D4-909A-B74C0508757C">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>2FB61739-16DF-9C49-37D6-E9876C8EF0B3</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<sourcePk>B61CCE31-ADC7-8683-8844-FB0B3AE818C8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6995C2CA-0E42-68BC-0B36-8CA90A82F6D2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A8082DE8-13BD-9A8B-5590-EFC3DC5EADD0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

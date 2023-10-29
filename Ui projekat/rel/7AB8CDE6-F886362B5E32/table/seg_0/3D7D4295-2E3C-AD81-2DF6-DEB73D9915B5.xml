@@ -30,6 +30,20 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Istorija_poslova_job_history_id" id="8DF6D948-01A8-4CE5-0B2C-35B13E70C4F7">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:24:38 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB1FFB62-834A-5B56-EB74-22C94AE66FBB" referredColumn="94E39B86-BD66-A623-F42F-61D36C41ED8D"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="46DB6DB8-57AD-087D-054A-835457EB7FD2" name="Sektori_PK">
@@ -41,6 +55,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EFCAC328-7D01-4DA0-8A23-D58AC5812A08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A7E8754-5323-E972-4A24-3776EE620775" name="Sektori_Istorija_poslova_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:24:38 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DF6D948-01A8-4CE5-0B2C-35B13E70C4F7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

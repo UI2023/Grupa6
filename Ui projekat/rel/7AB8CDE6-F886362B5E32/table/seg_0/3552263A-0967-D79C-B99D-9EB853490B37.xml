@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3552263A-0967-D79C-B99D-9EB853490B37" name="Dodatne_usluge_servisa">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:21:49 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dodatne_usluge_servisa_id" id="6B7D08E8-E32F-B7F4-7874-92797DD55602">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:23:06 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="B19E46C1-C106-E12C-F25C-124476BBB1B3">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:23:06 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Servis_servis_id" id="73E8C16B-50D3-D15C-A540-32AC84B52092">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:27:44 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13821785-3681-3161-C7A9-B111EDCE8FD0" referredColumn="5611A6F3-99E0-4F49-D7C6-FE7836DA43E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89287C92-D83B-AB5D-69CC-4FB1F06DAC56" name="Dodatne_usluge_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:23:06 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B7D08E8-E32F-B7F4-7874-92797DD55602"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="151860E1-3348-5D1C-8998-43D8A976E79C" name="Dodatne_usluge_servisa_Servis_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:27:44 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73E8C16B-50D3-D15C-A540-32AC84B52092"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -170,7 +170,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1000</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="osoba id" id="9B0FEDF4-D435-1BB3-2033-F42E6B9A9E8B">
 <createdBy>lukaj</createdBy>
@@ -187,9 +187,24 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="starost" id="93801987-0BBC-8A90-0850-7AA4A58954EC">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>8D71D477-8432-7276-CB0F-457B5F38FF05</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="CD58C5CA-8931-A1FF-E968-6B49572CF7E0" name="Korisnik PK">
+<identifier id="CD58C5CA-8931-A1FF-E968-6B49572CF7E0" name="Korisnici_PK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:10:59 UTC</createdTime>
 <generatorID>53037BD8-8D09-E709-4685-BD10FD2EDBC5</generatorID>

@@ -30,5 +30,76 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="job_history_id" id="94E39B86-BD66-A623-F42F-61D36C41ED8D">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:22:01 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Radno_mesto_radno_mesto_id" id="85D08FA6-F4B7-69EA-E237-E28EFFAF3FD4">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:14 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="337F8834-94AB-700A-E2E3-50483065B6CE" referredColumn="CA9C9FE5-3389-9788-BB27-3D8971A18C8F"/>
+</associations>
+</Column>
+<Column name="Sektori_sektor_id" id="F5A89BCB-6484-FFBD-A36A-2270476F5F2A">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:24:17 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A7071AB-A045-26A8-02E2-3666CA6275F3" referredColumn="EFCAC328-7D01-4DA0-8A23-D58AC5812A08"/>
+</associations>
+</Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA3F4014-7F43-E6BB-311F-91C710012AFF" name="Istorija_poslova_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:03 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94E39B86-BD66-A623-F42F-61D36C41ED8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C997842-DE41-89A2-685B-715E1806CEA2" name="Istorija_poslova_Radno_mesto_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:14 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85D08FA6-F4B7-69EA-E237-E28EFFAF3FD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4B4DF34-7F7E-4630-B6F8-3DF4D9FCCBBD" name="Istorija_poslova_Sektori_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:24:17 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5A89BCB-6484-FFBD-A36A-2270476F5F2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

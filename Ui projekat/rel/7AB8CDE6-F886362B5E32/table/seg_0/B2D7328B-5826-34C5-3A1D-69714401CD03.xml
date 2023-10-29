@@ -42,20 +42,6 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Osiguravajuca_kuca_osiguravajuca_kuca_id" id="D16731FF-7630-2EA3-516F-2FCE3799A54B">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:56:18 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A4BC22E7-355E-66D4-C1BA-F03A2E4DDB6A" referredColumn="4452122A-A94F-D3EF-6A8B-68A1E4418BDB"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="02E292E4-21AA-F561-6B52-986225D9CE07" name="Tip_Osigruanje_PK">
@@ -67,16 +53,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E5F17E25-85F6-C910-E05E-4C92264C95C0"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D511B726-7C79-AA2D-554B-71D0C21E638C" name="Tip_Osigruanje_Osiguravajuca_kuca_FK">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:56:18 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="D16731FF-7630-2EA3-516F-2FCE3799A54B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ugovor_Firma_FK" directorySegmentName="seg_0" id="82562DF1-CE5F-2CD1-08FE-D70F9BAE4A76">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>B127BB7A-90BA-C218-44AC-9D302DD174A3</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<sourcePk>9DF6FF0F-E876-D3CB-BCB5-9A1D1917943E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>97F5622A-D7A1-C455-49F9-25035BB28C71</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EE02BB5A-0689-6614-EBA0-CC80BAA22DF5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

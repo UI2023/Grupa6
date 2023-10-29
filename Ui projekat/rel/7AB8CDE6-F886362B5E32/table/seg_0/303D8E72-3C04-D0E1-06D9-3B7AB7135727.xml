@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="303D8E72-3C04-D0E1-06D9-3B7AB7135727" name="Ugovor">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:09:46 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ugovor_id" id="C927A329-232D-78A6-58C9-68B3A587F979">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:11:28 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_ugovora" id="4D4EFC3D-6EEC-A287-7E57-FC438DA027E7">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:11:28 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_sklapanja_ugovora" id="F899E912-A3DC-1AAC-F53A-A14E8D331431">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:11:28 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nosilac_ugovora" id="1DDFBE1D-0F5B-A790-4F67-183C68CA9656">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:11:28 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Firma_firma_id" id="40C48A4A-C1A0-B13A-A2CA-BD1F7B58398E">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:11:40 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B127BB7A-90BA-C218-44AC-9D302DD174A3" referredColumn="3BA52238-F88B-70A0-CA91-1DCEC1A326E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D70E0262-070A-14E9-9E5C-CADE125406BC" name="Ugovor_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:11:28 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C927A329-232D-78A6-58C9-68B3A587F979"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C79C1F44-12A4-DBA5-C389-40756E0BA2BA" name="Ugovor_Firma_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:11:40 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40C48A4A-C1A0-B13A-A2CA-BD1F7B58398E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

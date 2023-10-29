@@ -61,7 +61,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Lokacija Lokacija id" id="E5DCC86D-0595-F023-21AC-375D08F16AF3">
+<Attribute name="filijala id" id="E5DCC86D-0595-F023-21AC-375D08F16AF3">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:10:59 UTC</createdTime>
 <generatorID>BF30483E-B9E3-8CD1-EE12-B8D13AA43B12</generatorID>
@@ -76,7 +76,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Lokacija Lokacija id1" id="88F80664-2389-4B3D-A627-C8100D5C2B63">
+<Attribute name="filijala id1" id="88F80664-2389-4B3D-A627-C8100D5C2B63">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:10:59 UTC</createdTime>
 <generatorID>391FE51A-83D3-B1AC-26E2-050F0B0EBB8F</generatorID>
@@ -136,9 +136,38 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Zaposleni osoba id" id="0B7F73D5-FA72-E823-B288-68EE08DE7A50">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>026C648C-E6CA-A220-3BB5-AA3C42C163D0</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zaposleni zaposleni id" id="F326531F-B161-2244-7D23-6CB2FEAE57C9">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>9EF28E93-9C60-0C98-D4BF-8F890B6A3BF1</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<referedAttribute>D3183EA0-34ED-B97F-1AEF-97256A96ABA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B088C19A-AB59-A59C-9828-8FDBA8F46B20" name="Rezervacija PK">
+<identifier id="B088C19A-AB59-A59C-9828-8FDBA8F46B20" name="Rezervacije_PK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:10:59 UTC</createdTime>
 <generatorID>096B41FF-4885-BCCA-44F2-D9ACF2F87C94</generatorID>

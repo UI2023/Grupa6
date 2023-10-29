@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE5ED435-C49C-DE32-9014-E800ABE5BCBC" name="Tehnicki_pregled">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:15:06 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tehnicki_pregled_id" id="A44C7F91-671B-A22C-DD52-7551104F515B">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:16:05 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_pregleda" id="0AFCD316-B1A8-4366-CEAE-AAB4348396E6">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:16:05 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F9E123D-82F1-7797-7A0D-AC33A40A0C7A" name="Tehnicki_pregled_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:16:05 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A44C7F91-671B-A22C-DD52-7551104F515B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

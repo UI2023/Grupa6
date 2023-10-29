@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Osiguranje_Osiguravajuca_kuca_FK" directorySegmentName="seg_0" id="49CB014F-F6DC-8CA3-6F8B-808AACD1F3AD">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>4F33F1D9-5A08-D194-AEFC-B378CA638A37</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<sourcePk>158FDC04-04BA-5D23-276C-000E1C030D29</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EFCFB209-CBFF-7770-85B5-26B5FFF351E2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>85A59431-7491-26E7-F16F-F86A1451C40C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

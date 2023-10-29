@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="48F3283C-7C41-4BD3-CFBB-66C82E47DC79" name="Lokacije">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="48F3283C-7C41-4BD3-CFBB-66C82E47DC79" name="Filijale">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:10:59 UTC</createdTime>
 <generatorID>69924194-D26B-2B90-6610-4ECDF73D9ADE</generatorID>
@@ -17,7 +17,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Lokacija id" id="635306B9-9AB6-5ADC-355A-3688DD74BED2">
+<Attribute name="filijala id" id="635306B9-9AB6-5ADC-355A-3688DD74BED2">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:10:59 UTC</createdTime>
 <generatorID>BBCC97ED-F39D-6BD4-6580-EB7BC4171072</generatorID>
@@ -31,7 +31,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Ime lokacije" id="86C21801-EC1C-0E6E-5AF1-A496F7399188">
+<Attribute name="Ulica" id="86C21801-EC1C-0E6E-5AF1-A496F7399188">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:10:59 UTC</createdTime>
 <generatorID>40850352-47DB-B4D1-2616-ACC06A0B7C7F</generatorID>
@@ -62,9 +62,24 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Broj" id="DB4A7DB7-03EF-EDA0-0000-19874E201FC9">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>FC4F243B-7058-53DA-6BB1-BA3D7C7246E5</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="600D58F6-1EC6-2415-5665-9D2C6B722A44" name="Lokacija PK">
+<identifier id="600D58F6-1EC6-2415-5665-9D2C6B722A44" name="Lokacije_PK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:10:59 UTC</createdTime>
 <generatorID>C58EB90E-9370-C91C-AC7F-24932565F296</generatorID>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B838F5BD-BCF0-F754-6214-EF1ACBD4C6E3" name="Kategorija najma">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B838F5BD-BCF0-F754-6214-EF1ACBD4C6E3" name="Kategorije najma">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:10:59 UTC</createdTime>
 <generatorID>99C7F24E-BCA3-E5EF-D5A7-E28D2C8FBEFB</generatorID>

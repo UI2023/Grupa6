@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pripada_kategoriji" directorySegmentName="seg_0" id="46D798E7-204E-61F9-ABD8-8587C5A90341">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vozila Kategorija najma FK" directorySegmentName="seg_0" id="46D798E7-204E-61F9-ABD8-8587C5A90341">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-19 18:11:00 UTC</createdTime>
 <generatorID>C6EB221A-E341-9B4C-5D77-1F1D169A9E07</generatorID>

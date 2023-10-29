@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Radno_mesto_Istorija_poslova_FK" directorySegmentName="seg_0" id="B8552F1C-19B9-5E2C-1068-C83820F875A7">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 13:23:19 UTC</createdTime>
+<generatorID>7CF2BD17-6718-A1D2-F057-B983B54A20DB</generatorID>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<engineerTo>
+<item key="9B729158-C5F5-C1F8-E5F9-6FAED5620428" value="true"/>
+<item key="7AB8CDE6-7C16-A59F-A2D1-F886362B5E32" value="true"/>
+</engineerTo>
+<sourcePk>7180DD87-29EF-8B03-8246-36F227A883A8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EB32AA7B-020F-9643-85C6-5E35BE1A75D1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6995C2CA-0E42-68BC-0B36-8CA90A82F6D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

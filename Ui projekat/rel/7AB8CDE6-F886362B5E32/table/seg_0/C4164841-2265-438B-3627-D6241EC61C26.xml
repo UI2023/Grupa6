@@ -84,6 +84,20 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Servis_servis_id" id="DA88D753-0D09-3F68-E666-D572FB0B7D74">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:31:36 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="908D4695-92C7-DCA2-F0BB-7A6C4D383051" referredColumn="5611A6F3-99E0-4F49-D7C6-FE7836DA43E4"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="DD0F7C51-AD57-78C1-847A-C0706E67C752" name="Vozila_PK">
@@ -144,6 +158,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F034824B-BAB8-7D48-C8B2-E4FC3C204208"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49236DD5-1A58-2F7B-04EC-953C0F00B8B2" name="Vozila_Servis_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-29 14:31:36 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA88D753-0D09-3F68-E666-D572FB0B7D74"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

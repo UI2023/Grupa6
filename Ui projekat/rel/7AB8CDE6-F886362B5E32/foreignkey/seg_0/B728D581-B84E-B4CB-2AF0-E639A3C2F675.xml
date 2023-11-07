@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B728D581-B84E-B4CB-2AF0-E639A3C2F675" containerWithKeyObject="B1AC76B8-0914-607C-06E3-A0F7F17A4611" localFKIndex="3A5C93A5-E106-96B9-6237-A2C1B18FA51C" name="Rezervacije_Dodatna_oprema_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 14:18:23 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<referredTableLongName>Dodatna_oprema</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BFE83A13-097B-9A8C-FC55-CA8E3CDD9F30</referredTableID>
+<keyObject>CFD49BEB-3DA1-2F59-91D8-917B98CB0421</keyObject>
+<referredKeyID>CFD49BEB-3DA1-2F59-91D8-917B98CB0421</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>dodatna_oprema_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

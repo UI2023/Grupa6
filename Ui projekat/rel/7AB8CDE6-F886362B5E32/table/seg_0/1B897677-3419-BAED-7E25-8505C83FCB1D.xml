@@ -82,7 +82,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F4F6AEE4-381F-BB5C-D081-6AF7BB524150" referredColumn="4EFF2DED-4D07-07E6-4FA6-36363DB36DC0"/>
+<colAssociation fkAssociation="BE9AB15F-29CE-7DA0-5F4A-D5D71C133DD5" referredColumn="5E8C68B1-C3A3-8E0D-BD28-C246DED94D1E"/>
 </associations>
 </Column>
 </columns>
@@ -128,9 +128,9 @@
 <colUsage columnID="508730EB-FED7-CFAB-B7D9-2E6EA67F2285"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F71FDB54-4587-9EA4-6AD2-2C80FCF2E0D9" name="Servis_Vozila_FK">
+<ind_PK_UK id="FD3EB4A4-1EFA-0916-CBD5-C688E9B05F47" name="Servis_Vozila_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-29 14:32:25 UTC</createdTime>
+<createdTime>2023-10-30 13:45:21 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

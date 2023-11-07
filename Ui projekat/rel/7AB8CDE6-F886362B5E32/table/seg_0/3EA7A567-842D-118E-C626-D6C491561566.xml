@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EA7A567-842D-118E-C626-D6C491561566" name="Vozac">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 13:33:14 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vozac_id" id="E4F26B17-E010-EF15-B8B6-ABD23B71D614">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 13:36:34 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7388AD50-D50C-DEE0-1134-84BA429D48FB" name="Vozac_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 13:36:34 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4F26B17-E010-EF15-B8B6-ABD23B71D614"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

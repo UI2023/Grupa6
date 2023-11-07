@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6D83328A-53C9-35BD-2B87-AC3F15D9219F" containerWithKeyObject="B1AC76B8-0914-607C-06E3-A0F7F17A4611" localFKIndex="05D5C71B-E21A-80D7-E4F8-06BD5B44145A" name="Rezervacije_Vozac_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 14:12:23 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<referredTableLongName>Vozac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3EA7A567-842D-118E-C626-D6C491561566</referredTableID>
+<keyObject>7388AD50-D50C-DEE0-1134-84BA429D48FB</keyObject>
+<referredKeyID>7388AD50-D50C-DEE0-1134-84BA429D48FB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>vozac_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

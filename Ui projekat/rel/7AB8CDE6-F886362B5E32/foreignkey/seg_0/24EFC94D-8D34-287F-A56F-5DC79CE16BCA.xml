@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="24EFC94D-8D34-287F-A56F-5DC79CE16BCA" containerWithKeyObject="B2D7328B-5826-34C5-3A1D-69714401CD03" localFKIndex="5CB9F22C-99F5-E4CD-5F17-532AEDD99D38" name="Tip_Osigruanje_Dodatne_informacije_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 13:07:18 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<referredTableLongName>Dodatne_informacije</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B8640EF-0046-8BA7-8493-0ACA9EC3F34A</referredTableID>
+<keyObject>D09A1877-3C73-A38B-4B22-1B985AA41C83</keyObject>
+<referredKeyID>D09A1877-3C73-A38B-4B22-1B985AA41C83</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>dodatne_informacije_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -36,6 +36,45 @@
 <colAssociation fkAssociation="C7D30A17-2421-5081-A3DC-733BC2A31750" referredColumn="8D8D2239-3275-2703-2C4B-BEE152DE1B40"/>
 </associations>
 </Column>
+<Column name="poslovna_rezervacija_id" id="F1B0B339-E52D-B9A2-552F-ADF31219FCC0">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 12:14:03 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ugovor_ugovor_id" id="CC53ADC7-E659-5E39-C17F-F3CF5B6823ED">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 12:15:00 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09B5AC52-19A2-C8D7-6195-AF48FF7B257A" referredColumn="C927A329-232D-78A6-58C9-68B3A587F979"/>
+</associations>
+</Column>
+<Column name="Vozila_vozilo_id" id="7675DADC-9A21-A0AD-D0D7-6EAEFE95B9A4">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 12:15:22 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6414DB94-8757-C46B-071E-EF1CEFC30956" referredColumn="5E8C68B1-C3A3-8E0D-BD28-C246DED94D1E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="95D22DEA-EFBD-A5A9-5778-F4AF5781F6E9" name="Poslovne_Rezervacije_Filijale_FK">
@@ -56,6 +95,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="CC72A62A-69FF-656F-A510-E5B811B50AF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="765F4FFE-7A6A-B381-8BB6-D1870418197B" name="Poslovne_Rezervacije_Ugovor_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 12:14:59 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC53ADC7-E659-5E39-C17F-F3CF5B6823ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54A85DDA-93D0-C4A9-66F4-7C43C10C68B3" name="Poslovne_Rezervacije_Vozila_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 12:15:22 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7675DADC-9A21-A0AD-D0D7-6EAEFE95B9A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

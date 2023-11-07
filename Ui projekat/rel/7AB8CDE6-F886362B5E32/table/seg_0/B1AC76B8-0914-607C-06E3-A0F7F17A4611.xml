@@ -79,7 +79,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D01CC0BD-B105-EF54-F522-82FE00B2DB93" referredColumn="4EFF2DED-4D07-07E6-4FA6-36363DB36DC0"/>
+<colAssociation fkAssociation="5126D7C3-9ED3-F1BA-46B9-35E0E5D033F3" referredColumn="5E8C68B1-C3A3-8E0D-BD28-C246DED94D1E"/>
 </associations>
 </Column>
 <Column name="Korisnik_korisnik_id" id="FC8C6BF7-FA9B-9F50-EC95-FE807FA7B827">
@@ -134,6 +134,34 @@
 <colAssociation fkAssociation="3249D472-631A-E671-3BD7-87A78D02405A" referredColumn="8D8D2239-3275-2703-2C4B-BEE152DE1B40"/>
 </associations>
 </Column>
+<Column name="Vozac_vozac_id" id="AE4E4D6C-33B0-858A-BA3F-5EA888E9D1D8">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 14:12:23 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D83328A-53C9-35BD-2B87-AC3F15D9219F" referredColumn="E4F26B17-E010-EF15-B8B6-ABD23B71D614"/>
+</associations>
+</Column>
+<Column name="Dodatna_oprema_dodatna_oprema_id" id="A502F403-F572-8A1F-34F4-0F0C6D079A0E">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 14:18:23 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B728D581-B84E-B4CB-2AF0-E639A3C2F675" referredColumn="9A6CF947-5DF3-447D-50A1-6BE6DD9F1DFE"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="096B41FF-4885-BCCA-44F2-D9ACF2F87C94" name="Rezervacije_PK">
@@ -167,16 +195,6 @@
 <colUsage columnID="CA6CAED3-464C-8BBE-F279-9FC798A7FFDA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B3BD9C19-35B9-B3C3-15CD-0A589C123472" name="Rezervacije_Vozila_FK">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-15 21:38:02 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2AC06E61-135C-28BE-317A-2E701AD0A0D3"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="E3E8CF8B-2EFF-5B41-7108-5CAA89B59E1D" name="Rezervacije_Korisnici_FK">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-15 23:32:15 UTC</createdTime>
@@ -196,6 +214,36 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BD00EEA7-EB12-2D14-38F1-251FE28AC73C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAB590AC-D399-BA1C-CEE6-214193D8B19C" name="Rezervacije_Vozila_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-30 13:42:37 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AC06E61-135C-28BE-317A-2E701AD0A0D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05D5C71B-E21A-80D7-E4F8-06BD5B44145A" name="Rezervacije_Vozac_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 14:12:23 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE4E4D6C-33B0-858A-BA3F-5EA888E9D1D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A5C93A5-E106-96B9-6237-A2C1B18FA51C" name="Rezervacije_Dodatna_oprema_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 14:18:23 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A502F403-F572-8A1F-34F4-0F0C6D079A0E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

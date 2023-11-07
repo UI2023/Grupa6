@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87B64ED1-2034-3FE4-10E2-E42CBAA0ED3B" name="Osiguranje">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB8CD8FE-14AB-91AC-D96F-72AE2D8FFA88" name="Vozila">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-15 23:57:34 UTC</createdTime>
+<createdTime>2023-10-30 13:39:08 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<ordsAlias>table_21</ordsAlias>
+<ordsAlias>table_31</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Osiguranje_id" id="23AF9675-943D-AC91-F165-62C25D6C50D5">
+<Column name="vozilo_id" id="5E8C68B1-C3A3-8E0D-BD28-C246DED94D1E">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-16 00:02:24 UTC</createdTime>
+<createdTime>2023-10-30 13:40:10 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Naziv_osiguranja" id="D4AC45F4-CBB0-D594-AA82-88837F8040CF">
+<Column name="boja" id="A24AA89C-E936-C739-00BC-BF3222E0DB6F">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-16 00:02:24 UTC</createdTime>
+<createdTime>2023-10-30 13:40:10 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,20 +30,9 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Broj_osiguranja" id="7DC8C83F-B0C8-DE2D-0484-D3FBB40CF40D">
+<Column name="Modeli_Vozila_model_vozila_id" id="0712BF35-DBFF-F0E5-B0E4-7C524F9B2C7A">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-16 00:03:00 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Vozila_vozilo_id" id="CE7FCD55-C070-0CDA-EFEB-73204D882942">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-16 00:03:21 UTC</createdTime>
+<createdTime>2023-10-30 13:41:52 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -52,34 +41,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6611FD70-5851-AAE8-4148-25F0782188DB" referredColumn="5E8C68B1-C3A3-8E0D-BD28-C246DED94D1E"/>
+<colAssociation fkAssociation="09C61B57-0463-BDFC-D6E1-0655D95167C9" referredColumn="21E8E582-68B0-CFE5-6326-A7A1A95947C9"/>
 </associations>
 </Column>
-<Column name="Datum_do" id="670084A1-7DBF-C54D-42DC-BC2DAFAE7152">
+<Column name="Kategorije_najma_Kategorija_najma_id" id="B2392728-276C-EB6C-23EA-653F12A5D5D5">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:52:05 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Datum_od" id="7D4A00B0-8654-1A1B-1DDD-3E51A96D749A">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:52:05 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Tip_Osigruanje_tip_osigruanja_id" id="32061424-636A-E82D-762B-CA8337A93D9B">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:58:13 UTC</createdTime>
+<createdTime>2023-10-30 13:42:01 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -88,12 +55,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6F265693-5928-0CC0-30AB-86509693E0BA" referredColumn="E5F17E25-85F6-C910-E05E-4C92264C95C0"/>
+<colAssociation fkAssociation="6704F599-CBCF-D1A8-02F3-4A3A639D4E59" referredColumn="70B1DD03-8CE3-BF6E-D0F6-44B22A6D7220"/>
 </associations>
 </Column>
-<Column name="Osiguravajuca_kuca_osiguravajuca_kuca_id" id="A9ADF886-5787-AA25-588F-003E337F1BA7">
+<Column name="Pogoni_pogon_id" id="39B41A22-C1E5-5001-4CF5-6439ADFDB781">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-29 13:07:27 UTC</createdTime>
+<createdTime>2023-10-30 13:43:57 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -102,50 +69,74 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4F33F1D9-5A08-D194-AEFC-B378CA638A37" referredColumn="4452122A-A94F-D3EF-6A8B-68A1E4418BDB"/>
+<colAssociation fkAssociation="535EB248-3499-9670-2C85-483906E232BA" referredColumn="7E4EA61D-FE89-FFC2-9861-26FDE9792220"/>
+</associations>
+</Column>
+<Column name="Servis_servis_id" id="BD930475-71E6-1DD5-0D01-0CFD7C7FFEEE">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-30 13:46:01 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7854245-575B-6C58-F901-CE92D2498CEA" referredColumn="5611A6F3-99E0-4F49-D7C6-FE7836DA43E4"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="038B48E8-E810-AF1A-A8D4-4D6DE51144FE" name="Osiguranje_PK">
+<ind_PK_UK id="DF3CEC5B-F2A5-FBA3-B37C-C31AEEB29173" name="Vozila_PK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-16 00:03:08 UTC</createdTime>
+<createdTime>2023-10-30 13:40:10 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="23AF9675-943D-AC91-F165-62C25D6C50D5"/>
+<colUsage columnID="5E8C68B1-C3A3-8E0D-BD28-C246DED94D1E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="224A6E6F-ABF0-C44F-A9E1-D5ED03DF717B" name="Osiguranje_Tip_Osigruanje_FK">
+<ind_PK_UK id="002E0B76-D344-471C-15AF-AD0FCD1A15DE" name="Vozila_Modeli_Vozila_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:58:13 UTC</createdTime>
+<createdTime>2023-10-30 13:41:52 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="32061424-636A-E82D-762B-CA8337A93D9B"/>
+<colUsage columnID="0712BF35-DBFF-F0E5-B0E4-7C524F9B2C7A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6ABD1C49-FEB1-C152-979F-BFCA9DCB9BDC" name="Osiguranje_Osiguravajuca_kuca_FK">
+<ind_PK_UK id="82FA20BC-33C0-C113-4479-9B6B5A31B1DB" name="Vozila_Kategorije_najma_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-29 13:07:27 UTC</createdTime>
+<createdTime>2023-10-30 13:42:01 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A9ADF886-5787-AA25-588F-003E337F1BA7"/>
+<colUsage columnID="B2392728-276C-EB6C-23EA-653F12A5D5D5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="38FFFC84-7155-09EA-EA7E-F25D4590A1DF" name="Osiguranje_Vozila_FK">
+<ind_PK_UK id="63F901B6-DA0C-078F-3638-397AD13CCD37" name="Vozila_Pogoni_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-30 13:44:26 UTC</createdTime>
+<createdTime>2023-10-30 13:43:57 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CE7FCD55-C070-0CDA-EFEB-73204D882942"/>
+<colUsage columnID="39B41A22-C1E5-5001-4CF5-6439ADFDB781"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B567036D-5962-2FA2-0C70-8AABDDDFD769" name="Vozila_Servis_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-10-30 13:46:01 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD930475-71E6-1DD5-0D01-0CFD7C7FFEEE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

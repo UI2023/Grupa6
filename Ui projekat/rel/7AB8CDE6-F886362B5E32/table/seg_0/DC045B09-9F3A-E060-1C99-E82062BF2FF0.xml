@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2D7328B-5826-34C5-3A1D-69714401CD03" name="Tip_Osigruanje">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC045B09-9F3A-E060-1C99-E82062BF2FF0" name="Oprema">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 15:59:58 UTC</createdTime>
+<createdTime>2023-11-06 12:38:29 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<ordsAlias>table_23</ordsAlias>
+<ordsAlias>table_34</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="tip_osigruanja_id" id="E5F17E25-85F6-C910-E05E-4C92264C95C0">
+<Column name="operma_id" id="533679E6-9134-79E2-9B5A-1CCC9BD4BAF6">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:53:34 UTC</createdTime>
+<createdTime>2023-11-06 12:45:22 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv" id="AFD9C148-B765-0B78-0766-BAF590213144">
+<Column name="Naziv" id="7E8135F3-9B46-6119-51D3-E9D3809290CD">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:53:34 UTC</createdTime>
+<createdTime>2023-11-06 12:45:22 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,9 +30,21 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Dodatne_informacije_dodatne_informacije_id" id="F48E5DC6-AC14-D263-AAA6-B3044FCF5D31">
+<Column name="Materijal" id="5BA6A974-A12F-0486-7723-9F7E5AC0962D">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-06 13:07:18 UTC</createdTime>
+<createdTime>2023-11-06 12:45:22 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paket_opreme_paket_opereme_id" id="E2606458-B253-4F9D-3B2C-AC5F0A7CA600">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 12:54:37 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,30 +53,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="24EFC94D-8D34-287F-A56F-5DC79CE16BCA" referredColumn="C9AECD9C-C8CB-B7E8-FE77-B057E583B3E8"/>
+<colAssociation fkAssociation="B798DA65-376D-C541-9D44-D834CBE96224" referredColumn="E7005EF4-7048-A927-3D88-E1846B4F3356"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="02E292E4-21AA-F561-6B52-986225D9CE07" name="Tip_Osigruanje_PK">
+<ind_PK_UK id="B9ACD5E1-5D17-ACA3-0A56-BE9E429B1DF7" name="Oprema_PK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:53:34 UTC</createdTime>
+<createdTime>2023-11-06 12:45:22 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E5F17E25-85F6-C910-E05E-4C92264C95C0"/>
+<colUsage columnID="533679E6-9134-79E2-9B5A-1CCC9BD4BAF6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5CB9F22C-99F5-E4CD-5F17-532AEDD99D38" name="Tip_Osigruanje_Dodatne_informacije_FK">
+<ind_PK_UK id="B1C6E329-C4A7-543E-466B-6227E2159FE5" name="Oprema_Paket_opreme_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-06 13:07:18 UTC</createdTime>
+<createdTime>2023-11-06 12:54:37 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F48E5DC6-AC14-D263-AAA6-B3044FCF5D31"/>
+<colUsage columnID="E2606458-B253-4F9D-3B2C-AC5F0A7CA600"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

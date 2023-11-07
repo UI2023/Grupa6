@@ -49,7 +49,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1000</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -131,6 +131,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Paket_opreme_paket_opereme_id" id="CBF8FE4E-4866-3900-A751-6E01F2C5596F">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 12:53:58 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F89A0AE3-9951-E3AC-2A8A-791D79CE03F6" referredColumn="E7005EF4-7048-A927-3D88-E1846B4F3356"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D363C803-68AF-316D-B654-8D91B043EFC2" name="Model_Vozila_PK">
@@ -182,6 +196,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="644E68A5-2EFA-5D7E-4E82-CE75FF027356"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E6D205A-CFF0-0352-D409-B54BE3DF4176" name="Modeli_Vozila_Paket_opreme_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 12:53:58 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBF8FE4E-4866-3900-A751-6E01F2C5596F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

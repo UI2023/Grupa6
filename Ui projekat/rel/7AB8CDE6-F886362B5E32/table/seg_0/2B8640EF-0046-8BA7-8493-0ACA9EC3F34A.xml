@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B8640EF-0046-8BA7-8493-0ACA9EC3F34A" name="Dodatne_informacije">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 12:28:15 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dodatne_informacije_id" id="C9AECD9C-C8CB-B7E8-FE77-B057E583B3E8">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 13:06:48 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="25FEF4CE-CC2B-B012-6840-6B3922AF0B4B">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 13:06:48 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D09A1877-3C73-A38B-4B22-1B985AA41C83" name="Dodatne_informacije_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-06 13:06:48 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9AECD9C-C8CB-B7E8-FE77-B057E583B3E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

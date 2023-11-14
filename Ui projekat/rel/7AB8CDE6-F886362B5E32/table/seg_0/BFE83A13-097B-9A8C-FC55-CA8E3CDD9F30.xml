@@ -41,20 +41,6 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Rezervacije_Rezervacija_id" id="5C9ADB33-F246-018C-79D2-5140416454CB">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-11-06 14:18:39 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="60301511-EDEF-E0C9-2D6D-DC0D8267E3AE" referredColumn="1CDF5F54-F616-7DD7-839A-A976BE63F123"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="CFD49BEB-3DA1-2F59-91D8-917B98CB0421" name="Dodatna_oprema_PK">
@@ -66,16 +52,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9A6CF947-5DF3-447D-50A1-6BE6DD9F1DFE"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="9342747C-7ACA-4AB4-857E-ED9FB3220E4F" name="Dodatna_oprema_Rezervacije_FK">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-11-06 14:18:39 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5C9ADB33-F246-018C-79D2-5140416454CB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

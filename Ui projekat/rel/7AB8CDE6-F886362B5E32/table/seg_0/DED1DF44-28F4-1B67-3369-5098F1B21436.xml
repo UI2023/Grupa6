@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D7D4295-2E3C-AD81-2DF6-DEB73D9915B5" name="Sektori">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DED1DF44-28F4-1B67-3369-5098F1B21436" name="Tip_statusa">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:12:25 UTC</createdTime>
+<createdTime>2023-11-13 18:37:26 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<ordsAlias>table_24</ordsAlias>
+<ordsAlias>table_55</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="sektor_id" id="EFCAC328-7D01-4DA0-8A23-D58AC5812A08">
+<Column name="tip_statusa_id" id="5B9C80DF-E00D-D71C-2095-C94F52BCE76F">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:16:01 UTC</createdTime>
+<createdTime>2023-11-13 18:43:06 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,29 +18,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv" id="DFC0E961-6BEF-5783-6F76-7B46A17815D4">
+<Column name="Naziv" id="D048C990-9E49-E8C1-40C9-AC851A31C644">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:16:01 UTC</createdTime>
+<createdTime>2023-11-13 18:43:06 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1000</dataTypeSize>
-<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="46DB6DB8-57AD-087D-054A-835457EB7FD2" name="Sektori_PK">
+<ind_PK_UK id="9F1CE034-BE60-65B1-AC0C-5713CB945254" name="Tip_statusa_PK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:16:01 UTC</createdTime>
+<createdTime>2023-11-13 18:43:06 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EFCAC328-7D01-4DA0-8A23-D58AC5812A08"/>
+<colUsage columnID="5B9C80DF-E00D-D71C-2095-C94F52BCE76F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

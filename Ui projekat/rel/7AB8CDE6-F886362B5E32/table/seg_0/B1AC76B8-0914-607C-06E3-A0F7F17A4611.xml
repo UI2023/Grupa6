@@ -138,6 +138,7 @@
 <createdBy>lukaj</createdBy>
 <createdTime>2023-11-06 14:12:23 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -148,19 +149,16 @@
 <colAssociation fkAssociation="6D83328A-53C9-35BD-2B87-AC3F15D9219F" referredColumn="E4F26B17-E010-EF15-B8B6-ABD23B71D614"/>
 </associations>
 </Column>
-<Column name="Dodatna_oprema_dodatna_oprema_id" id="A502F403-F572-8A1F-34F4-0F0C6D079A0E">
+<Column name="Depozit" id="DA365397-312A-B1D1-2306-BF8AC4C01E2F">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-06 14:18:23 UTC</createdTime>
+<createdTime>2023-11-13 18:45:12 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B728D581-B84E-B4CB-2AF0-E639A3C2F675" referredColumn="9A6CF947-5DF3-447D-50A1-6BE6DD9F1DFE"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -234,16 +232,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AE4E4D6C-33B0-858A-BA3F-5EA888E9D1D8"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="3A5C93A5-E106-96B9-6237-A2C1B18FA51C" name="Rezervacije_Dodatna_oprema_FK">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-11-06 14:18:23 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A502F403-F572-8A1F-34F4-0F0C6D079A0E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

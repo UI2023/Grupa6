@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B571D4E5-0504-4089-544D-3C33CF433C63" name="Paket_opreme_za_vozilo">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:13:21 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_50</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vozila_vozilo_id" id="102FE8F5-9718-0FE0-90C2-3803EF06EEB7">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:14:33 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="536126B0-5009-7566-E722-64E73171A496" referredColumn="5E8C68B1-C3A3-8E0D-BD28-C246DED94D1E"/>
+</associations>
+</Column>
+<Column name="Paket_opreme_paket_opereme_id" id="A3E691BB-D945-F48C-7A04-A1AB4B6CC218">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:14:37 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62E1A5D7-3B84-700D-9252-EFBA2BB365E3" referredColumn="E7005EF4-7048-A927-3D88-E1846B4F3356"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51D813AA-6DFB-3E7D-0820-4F7B7334256E" name="Paket_opreme_za_vozilo_Vozila_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:14:33 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="102FE8F5-9718-0FE0-90C2-3803EF06EEB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="394B047F-97B3-8928-3083-9652F734EFB5" name="Paket_opreme_za_vozilo_Paket_opreme_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:14:37 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3E691BB-D945-F48C-7A04-A1AB4B6CC218"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

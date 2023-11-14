@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B798DA65-376D-C541-9D44-D834CBE96224" containerWithKeyObject="DC045B09-9F3A-E060-1C99-E82062BF2FF0" localFKIndex="B1C6E329-C4A7-543E-466B-6227E2159FE5" name="Oprema_Paket_opreme_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62E1A5D7-3B84-700D-9252-EFBA2BB365E3" containerWithKeyObject="B571D4E5-0504-4089-544D-3C33CF433C63" localFKIndex="394B047F-97B3-8928-3083-9652F734EFB5" name="Paket_opreme_za_vozilo_Paket_opreme_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-06 12:54:37 UTC</createdTime>
+<createdTime>2023-11-13 18:14:37 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <referredTableLongName>Paket_opreme</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

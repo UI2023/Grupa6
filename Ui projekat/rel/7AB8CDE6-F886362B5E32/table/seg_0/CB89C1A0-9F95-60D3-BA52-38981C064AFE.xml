@@ -30,9 +30,9 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Oprema_operma_id" id="F58674F1-1C28-9C7E-DB78-F6B6F14BE78E">
+<Column name="Modeli_Vozila_model_vozila_id" id="DFC4B27F-8E99-4AC3-7CEB-A9FCEE8FF9CF">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-06 12:54:45 UTC</createdTime>
+<createdTime>2023-11-13 16:53:50 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,8 +41,19 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4D118054-F1DF-0B57-B109-EC612693E774" referredColumn="533679E6-9134-79E2-9B5A-1CCC9BD4BAF6"/>
+<colAssociation fkAssociation="0AE150C4-FD38-D158-9589-9A8A3FD5C213" referredColumn="21E8E582-68B0-CFE5-6326-A7A1A95947C9"/>
 </associations>
+</Column>
+<Column name="Model_paketa_model_paketa_id" id="3915799B-F2F0-D117-F2AB-E5404B6D27BE">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 16:55:21 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -57,14 +68,14 @@
 <colUsage columnID="E7005EF4-7048-A927-3D88-E1846B4F3356"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C4052F3E-9EF0-C9B7-59E5-AF7215F149BF" name="Paket_opreme_Oprema_FK">
+<ind_PK_UK id="42ED843C-BD16-10AA-89D4-293143BA03AB" name="Paket_opreme_Modeli_Vozila_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-06 12:54:45 UTC</createdTime>
+<createdTime>2023-11-13 16:53:50 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F58674F1-1C28-9C7E-DB78-F6B6F14BE78E"/>
+<colUsage columnID="DFC4B27F-8E99-4AC3-7CEB-A9FCEE8FF9CF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

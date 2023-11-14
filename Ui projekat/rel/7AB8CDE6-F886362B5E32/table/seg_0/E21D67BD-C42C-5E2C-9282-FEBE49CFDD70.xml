@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48483820-C53E-E0DA-D7A2-24A18F92C19D" name="Tip_servisa">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E21D67BD-C42C-5E2C-9282-FEBE49CFDD70" name="Prozivodjaci_opreme">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-29 14:11:29 UTC</createdTime>
+<createdTime>2023-11-13 17:57:27 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<ordsAlias>table_28</ordsAlias>
+<ordsAlias>table_47</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="tip_servisa_id" id="A85E79B8-277B-7C95-74C7-56613AC082F4">
+<Column name="proizvodjaci_id" id="0988B087-9BC8-D4DD-1487-DA3E14F98C92">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-29 14:13:41 UTC</createdTime>
+<createdTime>2023-11-13 17:58:42 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Naziv" id="77893BC8-262F-45DF-7CB5-2C989575D2DF">
+<Column name="Naziv" id="1E893654-1115-746B-A73A-CF505C98993A">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-29 14:13:41 UTC</createdTime>
+<createdTime>2023-11-13 17:58:42 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,15 +32,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3F27335A-1FE9-820A-7A3C-265064B9C333" name="Tip_servisa_PK">
+<ind_PK_UK id="69843356-266B-1741-4600-9D39530DB340" name="Prozivodjaci_opreme_PK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-29 14:13:41 UTC</createdTime>
+<createdTime>2023-11-13 17:58:42 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A85E79B8-277B-7C95-74C7-56613AC082F4"/>
+<colUsage columnID="0988B087-9BC8-D4DD-1487-DA3E14F98C92"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

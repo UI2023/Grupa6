@@ -8,7 +8,7 @@
 <referredTableID>D35D5957-DC3E-3BBA-3391-000683300735</referredTableID>
 <keyObject>81DC3890-A8E7-7849-936B-976D8B8429EB</keyObject>
 <referredKeyID>81DC3890-A8E7-7849-936B-976D8B8429EB</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>servisni_centar_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

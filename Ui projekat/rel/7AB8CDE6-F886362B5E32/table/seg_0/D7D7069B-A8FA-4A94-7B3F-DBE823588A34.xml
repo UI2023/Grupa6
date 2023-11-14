@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7D7069B-A8FA-4A94-7B3F-DBE823588A34" name="Pracenja_rezervacija">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:44:09 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_56</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tip_statusa_tip_statusa_id" id="FCCDA44A-3534-73D3-F892-12776E770330">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:44:25 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3A28ACA-CB8E-B091-F6EE-731DA75078C5" referredColumn="5B9C80DF-E00D-D71C-2095-C94F52BCE76F"/>
+</associations>
+</Column>
+<Column name="Rezervacije_Rezervacija_id" id="BF2B8DC5-C475-7858-901E-3696CA500829">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:44:30 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EBF7BB4-73A5-0173-78D0-664FDB1E8FFC" referredColumn="1CDF5F54-F616-7DD7-839A-A976BE63F123"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7FEDCC80-E866-76C7-A388-B2146441BA4D" name="Pracenja_rezervacija_Tip_statusa_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:44:25 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCCDA44A-3534-73D3-F892-12776E770330"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FBE202C-39B0-9EBD-7C15-ABD61CD00BBE" name="Pracenja_rezervacija_Rezervacije_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:44:30 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF2B8DC5-C475-7858-901E-3696CA500829"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

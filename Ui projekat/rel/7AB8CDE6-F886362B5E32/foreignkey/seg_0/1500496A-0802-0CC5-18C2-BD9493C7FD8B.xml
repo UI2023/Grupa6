@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FB1FFB62-834A-5B56-EB74-22C94AE66FBB" containerWithKeyObject="3D7D4295-2E3C-AD81-2DF6-DEB73D9915B5" localFKIndex="0A7E8754-5323-E972-4A24-3776EE620775" name="Sektori_Istorija_poslova_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1500496A-0802-0CC5-18C2-BD9493C7FD8B" containerWithKeyObject="941C27E7-8C92-9D1C-1488-755CDDCA4917" localFKIndex="4F1A06D0-D4A8-DCDE-D659-6AB8C3D3EE7D" name="Istorija_radnog_mesta_Istorija_poslova_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-29 13:24:38 UTC</createdTime>
+<createdTime>2023-11-13 17:54:35 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <referredTableLongName>Istorija_poslova</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

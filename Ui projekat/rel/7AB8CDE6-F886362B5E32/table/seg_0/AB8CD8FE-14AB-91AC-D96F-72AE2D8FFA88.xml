@@ -72,20 +72,6 @@
 <colAssociation fkAssociation="535EB248-3499-9670-2C85-483906E232BA" referredColumn="7E4EA61D-FE89-FFC2-9861-26FDE9792220"/>
 </associations>
 </Column>
-<Column name="Servis_servis_id" id="BD930475-71E6-1DD5-0D01-0CFD7C7FFEEE">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-30 13:46:01 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A7854245-575B-6C58-F901-CE92D2498CEA" referredColumn="5611A6F3-99E0-4F49-D7C6-FE7836DA43E4"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="DF3CEC5B-F2A5-FBA3-B37C-C31AEEB29173" name="Vozila_PK">
@@ -127,16 +113,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="39B41A22-C1E5-5001-4CF5-6439ADFDB781"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="B567036D-5962-2FA2-0C70-8AABDDDFD769" name="Vozila_Servis_FK">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-30 13:46:01 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="BD930475-71E6-1DD5-0D01-0CFD7C7FFEEE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -18,17 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Naziv" id="B19E46C1-C106-E12C-F25C-124476BBB1B3">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-29 14:23:06 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Servis_servis_id" id="73E8C16B-50D3-D15C-A540-32AC84B52092">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-29 14:27:44 UTC</createdTime>
@@ -41,6 +30,34 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="13821785-3681-3161-C7A9-B111EDCE8FD0" referredColumn="5611A6F3-99E0-4F49-D7C6-FE7836DA43E4"/>
+</associations>
+</Column>
+<Column name="Servis_Vozila_vozilo_id" id="E2C42D4E-58CD-0F40-2241-3ADDF6BB694C">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-12 19:50:01 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13821785-3681-3161-C7A9-B111EDCE8FD0" referredColumn="E939057E-AF54-9105-AF81-69E667EAD397"/>
+</associations>
+</Column>
+<Column name="Tip_dodatne_usluge_tip_dodatne_usluge" id="C3418C66-7312-4FE0-43FA-1BAB1B3C8621">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 16:46:48 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6339C083-D8F5-BF24-E4FB-3C1532AA5C9B" referredColumn="E9537E24-9868-B6CC-2264-280A0DC2EC23"/>
 </associations>
 </Column>
 </columns>
@@ -64,6 +81,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="73E8C16B-50D3-D15C-A540-32AC84B52092"/>
+<colUsage columnID="E2C42D4E-58CD-0F40-2241-3ADDF6BB694C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0C0AE37-5452-A16A-850B-8E394E2A0D9C" name="Dodatne_usluge_servisa_Tip_dodatne_usluge_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 16:46:48 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3418C66-7312-4FE0-43FA-1BAB1B3C8621"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A08073E-EF76-40D4-D0DF-B82DDD4B08B0" name="Model_paketa">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:07:59 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_48</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="model_paketa_id" id="00C2E03D-C1A4-0D37-D137-C84EBF073C6C">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:15:36 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paket_opreme_paket_opereme_id" id="B4267268-9538-5D2A-ADEE-91449DBF69AB">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:15:56 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEFBEF12-1FC1-5360-E215-3CC479C31318" referredColumn="E7005EF4-7048-A927-3D88-E1846B4F3356"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D93AD70-F86B-79FE-54A4-3FD7210D0FCC" name="Model_paketa_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:15:47 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00C2E03D-C1A4-0D37-D137-C84EBF073C6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08D15AA2-4A6D-6514-BA72-725F23E5F14F" name="Model_paketa_Paket_opreme_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:15:56 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4267268-9538-5D2A-ADEE-91449DBF69AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

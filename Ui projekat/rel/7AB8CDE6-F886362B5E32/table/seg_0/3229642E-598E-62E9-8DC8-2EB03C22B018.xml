@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3229642E-598E-62E9-8DC8-2EB03C22B018" name="Rezervacija_dodatna_oprema">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 17:23:44 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rezervacije_Rezervacija_id" id="AA182256-D989-8994-A2BF-285F21C797DB">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 17:24:24 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A2C75AB-2067-E52A-1F3A-40EB144535D8" referredColumn="1CDF5F54-F616-7DD7-839A-A976BE63F123"/>
+</associations>
+</Column>
+<Column name="Dodatna_oprema_dodatna_oprema_id" id="46276F3B-637F-1453-1E4B-FCCE780FA38D">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 17:24:29 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96CD00BB-D4A2-2EF3-DE36-2D30C8E810EE" referredColumn="9A6CF947-5DF3-447D-50A1-6BE6DD9F1DFE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="406DEAEA-5E58-94AC-F81D-B7D50F445940" name="Rezervacija_dodatna_oprema_Rezervacije_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 17:24:24 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA182256-D989-8994-A2BF-285F21C797DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C358A25-4AFC-A8E8-0DA9-6295514D7D0A" name="Rezervacija_dodatna_oprema_Dodatna_oprema_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 17:24:29 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46276F3B-637F-1453-1E4B-FCCE780FA38D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

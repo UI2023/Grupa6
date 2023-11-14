@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87B1C161-1103-388E-59A8-40CA2739EC33" name="Istorija_sektora">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 17:55:04 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_46</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Istorija_poslova_job_history_id" id="2D0DBA38-7A73-821B-713D-C75DD5F0D576">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 17:55:56 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="564B3F38-7F40-91C8-9AB5-F2DD33825586" referredColumn="94E39B86-BD66-A623-F42F-61D36C41ED8D"/>
+</associations>
+</Column>
+<Column name="Sektori_sektor_id" id="23FBB93D-84E5-4EBB-B345-F9E09693E607">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 17:56:10 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E88938A-32F5-5C2B-7CF1-7D0DFF8A3911" referredColumn="EFCAC328-7D01-4DA0-8A23-D58AC5812A08"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26E4EB80-8629-1CC5-6386-BADC25E36BF9" name="Istorija_sektora_Istorija_poslova_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 17:55:56 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D0DBA38-7A73-821B-713D-C75DD5F0D576"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05D72EA4-B746-4B00-7E2B-73247FFF6D98" name="Istorija_sektora_Sektori_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 17:56:10 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23FBB93D-84E5-4EBB-B345-F9E09693E607"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

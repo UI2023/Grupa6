@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0A604DA-1B1A-38D5-EDEE-653D457C958E" containerWithKeyObject="DBC2836A-A80A-E60B-657C-A0CB2245E62B" localFKIndex="00C014B7-3620-AEC0-395F-1E0A622E7F0C" name="Kategorija_vozacke_dozvole_tip_kategorije_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 17:40:26 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<referredTableLongName>tip_kategorije</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E67AFB8D-12ED-1A3D-D7C7-857FF03D6D47</referredTableID>
+<keyObject>1023665A-7AE7-3968-C025-14F452C7DD9C</keyObject>
+<referredKeyID>1023665A-7AE7-3968-C025-14F452C7DD9C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tip_kategorije_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

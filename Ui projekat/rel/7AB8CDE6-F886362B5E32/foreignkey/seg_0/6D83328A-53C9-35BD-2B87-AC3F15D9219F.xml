@@ -8,7 +8,7 @@
 <referredTableID>3EA7A567-842D-118E-C626-D6C491561566</referredTableID>
 <keyObject>7388AD50-D50C-DEE0-1134-84BA429D48FB</keyObject>
 <referredKeyID>7388AD50-D50C-DEE0-1134-84BA429D48FB</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>vozac_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

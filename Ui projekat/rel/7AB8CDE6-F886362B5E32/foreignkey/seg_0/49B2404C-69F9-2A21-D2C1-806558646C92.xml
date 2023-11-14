@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49B2404C-69F9-2A21-D2C1-806558646C92" containerWithKeyObject="DBC2836A-A80A-E60B-657C-A0CB2245E62B" localFKIndex="C0F2ADF5-B020-6CAB-E5FF-8727741D5A0F" name="Kategorija_vozacke_dozvole_Vozacka_dozvola_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 17:41:19 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<referredTableLongName>Vozacka_dozvola</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>61838862-E36C-DEBF-D99D-B57AA95C3A7C</referredTableID>
+<keyObject>B018172E-F453-FF8B-9219-CB2C2F879563</keyObject>
+<referredKeyID>B018172E-F453-FF8B-9219-CB2C2F879563</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Broj</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

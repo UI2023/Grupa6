@@ -43,34 +43,6 @@
 <colAssociation fkAssociation="C5DA42DA-8D18-F3AE-0D77-2675081364A4" referredColumn="039430E3-EF39-13A7-E7A9-EE02EEAF87D1"/>
 </associations>
 </Column>
-<Column name="Tip_servisa_tip_servisa_id" id="A1F8C6B1-9EAC-E79A-053E-C4F8E45A2FAF">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-29 14:27:14 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="CC501E7B-2E9D-F13B-B311-8EC1AB3359D0" referredColumn="A85E79B8-277B-7C95-74C7-56613AC082F4"/>
-</associations>
-</Column>
-<Column name="Dodatne_usluge_servisa_dodatne_usluge_servisa_id" id="508730EB-FED7-CFAB-B7D9-2E6EA67F2285">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-29 14:27:50 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F408CB52-6A09-C3B0-0C42-6A5E1A89B9A2" referredColumn="6B7D08E8-E32F-B7F4-7874-92797DD55602"/>
-</associations>
-</Column>
 <Column name="Vozila_vozilo_id" id="E939057E-AF54-9105-AF81-69E667EAD397">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-29 14:32:25 UTC</createdTime>
@@ -96,6 +68,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5611A6F3-99E0-4F49-D7C6-FE7836DA43E4"/>
+<colUsage columnID="E939057E-AF54-9105-AF81-69E667EAD397"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="C6D74E38-8277-AB40-6BEA-0CCD105F28C4" name="Servis_Servisni_centar_FK">
@@ -106,26 +79,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5C3FD8A6-D7E4-8751-4122-121FD6FC9E06"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="C90FCEB2-D0C8-1EC8-809B-0FA2808F15A3" name="Servis_Tip_servisa_FK">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-29 14:27:14 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A1F8C6B1-9EAC-E79A-053E-C4F8E45A2FAF"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="053A2339-8C5F-CFE4-6010-75E2498CB503" name="Servis_Dodatne_usluge_servisa_FK">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-29 14:27:50 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="508730EB-FED7-CFAB-B7D9-2E6EA67F2285"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="FD3EB4A4-1EFA-0916-CBD5-C688E9B05F47" name="Servis_Vozila_FK">

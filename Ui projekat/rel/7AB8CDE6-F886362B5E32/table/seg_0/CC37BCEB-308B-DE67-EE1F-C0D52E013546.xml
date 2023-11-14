@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC045B09-9F3A-E060-1C99-E82062BF2FF0" name="Oprema">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC37BCEB-308B-DE67-EE1F-C0D52E013546" name="Recenzije">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-06 12:38:29 UTC</createdTime>
+<createdTime>2023-11-13 18:35:25 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<ordsAlias>table_34</ordsAlias>
+<ordsAlias>table_54</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="operma_id" id="533679E6-9134-79E2-9B5A-1CCC9BD4BAF6">
+<Column name="recenzije_id" id="BBBCE0A8-2B23-109E-88D6-F27A78AF686B">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-06 12:45:22 UTC</createdTime>
+<createdTime>2023-11-13 18:36:49 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Naziv" id="7E8135F3-9B46-6119-51D3-E9D3809290CD">
+<Column name="Komentar" id="C2950FDD-82F1-8B73-AA73-AEDB3F896B65">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-06 12:45:22 UTC</createdTime>
+<createdTime>2023-11-13 18:36:49 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,22 +30,22 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Materijal" id="5BA6A974-A12F-0486-7723-9F7E5AC0962D">
+<Column name="Ocena" id="9D5BFF49-9AAE-7EAF-4ED8-520A1E8ABC1F">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-06 12:45:22 UTC</createdTime>
+<createdTime>2023-11-13 18:36:49 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1000</dataTypeSize>
-<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Model_paketa_model_paketa_id" id="197E746C-E78B-4E14-4485-EB32B1689674">
+<Column name="Korisnici_korisnik_id" id="D7A0BC34-0311-7B76-1D5A-A6CD248BCEEC">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-13 18:15:50 UTC</createdTime>
+<createdTime>2023-11-13 18:47:56 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -53,30 +53,46 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="44912B99-44A4-FFD0-B885-994F4B208B7C" referredColumn="00C2E03D-C1A4-0D37-D137-C84EBF073C6C"/>
+<colAssociation fkAssociation="460ADD70-B917-E1EA-1FC1-E810713657F8" referredColumn="3D07D3A6-AB8E-6867-C6F8-6CD7450D32A4"/>
+</associations>
+</Column>
+<Column name="Korisnici_uloga_id" id="26669DDC-8B7A-52A9-8843-A1D8F0AF4CAA">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-13 18:47:56 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="460ADD70-B917-E1EA-1FC1-E810713657F8" referredColumn="361701A8-DE04-D117-7523-060CBF163421"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B9ACD5E1-5D17-ACA3-0A56-BE9E429B1DF7" name="Oprema_PK">
+<ind_PK_UK id="7A6E2D42-8BBF-E7B3-FB31-A9F9A05D2A9A" name="Recenzije_PK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-06 12:45:22 UTC</createdTime>
+<createdTime>2023-11-13 18:36:49 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="533679E6-9134-79E2-9B5A-1CCC9BD4BAF6"/>
+<colUsage columnID="BBBCE0A8-2B23-109E-88D6-F27A78AF686B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C2C3ADA2-7902-80F3-B15F-34D22899EF58" name="Oprema_Model_paketa_FK">
+<ind_PK_UK id="EAD3F669-CB04-3074-E366-D4A3235A9317" name="Recenzije_Korisnici_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-13 18:15:50 UTC</createdTime>
+<createdTime>2023-11-13 18:47:56 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="197E746C-E78B-4E14-4485-EB32B1689674"/>
+<colUsage columnID="D7A0BC34-0311-7B76-1D5A-A6CD248BCEEC"/>
+<colUsage columnID="26669DDC-8B7A-52A9-8843-A1D8F0AF4CAA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

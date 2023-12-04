@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC0811E2-18EB-2D77-CDBC-71E4A0282236" name="Cenovnik">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F091CE3D-F0E1-628F-2DD4-807AB80503C5" name="Tip_aukcije">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-13 18:34:09 UTC</createdTime>
+<createdTime>2023-12-04 17:23:42 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<ordsAlias>table_53</ordsAlias>
+<ordsAlias>table_56</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="roba_id" id="85B4D5E8-5C93-063B-DD62-96AD70F05763">
+<Column name="tip_aukcije_id" id="7DE23A5D-2803-0224-C5CC-FCD4965E4E74">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 16:38:48 UTC</createdTime>
+<createdTime>2023-12-04 17:25:33 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Naziv_robe" id="86C8D9E7-0487-89C9-D5B2-C1EE3571B74C">
+<Column name="naziv" id="67DFC296-8A04-A509-7136-7E28682380B4">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 16:38:48 UTC</createdTime>
+<createdTime>2023-12-04 17:25:33 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,29 +30,17 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena" id="8639DE58-536E-0458-4C5F-BE8FFD2E92F9">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 16:38:48 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="97A6EDEE-0870-1841-16B6-7586A2402956" name="Cenovnik_PK">
+<ind_PK_UK id="C728F92B-C8E2-4DA9-AF06-123E5A63F152" name="Tip_aukcije_PK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 16:38:48 UTC</createdTime>
+<createdTime>2023-12-04 17:25:33 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="85B4D5E8-5C93-063B-DD62-96AD70F05763"/>
+<colUsage columnID="7DE23A5D-2803-0224-C5CC-FCD4965E4E74"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

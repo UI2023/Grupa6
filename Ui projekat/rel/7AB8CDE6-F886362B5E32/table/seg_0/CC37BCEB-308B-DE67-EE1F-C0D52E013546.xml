@@ -41,11 +41,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Korisnici_korisnik_id" id="D7A0BC34-0311-7B76-1D5A-A6CD248BCEEC">
+<Column name="Rezervacije_Rezervacija_id" id="8B3A1B36-5DAC-32DC-5A59-7CC702B2D81E">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-13 18:47:56 UTC</createdTime>
+<createdTime>2023-11-14 16:33:07 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -53,22 +52,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="460ADD70-B917-E1EA-1FC1-E810713657F8" referredColumn="3D07D3A6-AB8E-6867-C6F8-6CD7450D32A4"/>
-</associations>
-</Column>
-<Column name="Korisnici_uloga_id" id="26669DDC-8B7A-52A9-8843-A1D8F0AF4CAA">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-11-13 18:47:56 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="460ADD70-B917-E1EA-1FC1-E810713657F8" referredColumn="361701A8-DE04-D117-7523-060CBF163421"/>
+<colAssociation fkAssociation="F13F95C6-E661-512E-7159-68223DD8AE34" referredColumn="1CDF5F54-F616-7DD7-839A-A976BE63F123"/>
 </associations>
 </Column>
 </columns>
@@ -84,15 +68,24 @@
 <colUsage columnID="BBBCE0A8-2B23-109E-88D6-F27A78AF686B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EAD3F669-CB04-3074-E366-D4A3235A9317" name="Recenzije_Korisnici_FK">
+<ind_PK_UK id="36FBE3AA-0201-6C12-E3BF-67EAB7836B51" name="Recenzije__IDX">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-13 18:47:56 UTC</createdTime>
+<createdTime>2023-11-14 16:33:26 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B3A1B36-5DAC-32DC-5A59-7CC702B2D81E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DB1B55D-BCCF-A509-1971-B48C3E646D79" name="Recenzije_Rezervacije_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-14 16:33:07 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D7A0BC34-0311-7B76-1D5A-A6CD248BCEEC"/>
-<colUsage columnID="26669DDC-8B7A-52A9-8843-A1D8F0AF4CAA"/>
+<colUsage columnID="8B3A1B36-5DAC-32DC-5A59-7CC702B2D81E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

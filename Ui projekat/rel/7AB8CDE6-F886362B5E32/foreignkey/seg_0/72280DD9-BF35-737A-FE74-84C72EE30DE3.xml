@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="72280DD9-BF35-737A-FE74-84C72EE30DE3" containerWithKeyObject="8E05625B-0825-0F06-A701-EA3D866FE21A" localFKIndex="DD7EB786-5573-7B86-EEBA-859A288BA9D2" name="Dodatne_naknade_Racun_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-27 17:21:19 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<referredTableLongName>Racun</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A6958DFC-F8F5-856A-0B22-2AEAE0707E5B</referredTableID>
+<keyObject>1504FC89-CA8E-15F5-A31E-4135D04A441B</keyObject>
+<referredKeyID>1504FC89-CA8E-15F5-A31E-4135D04A441B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>racun_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

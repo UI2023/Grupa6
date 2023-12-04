@@ -56,6 +56,20 @@
 <colAssociation fkAssociation="44912B99-44A4-FFD0-B885-994F4B208B7C" referredColumn="00C2E03D-C1A4-0D37-D137-C84EBF073C6C"/>
 </associations>
 </Column>
+<Column name="Prozivodjaci_opreme_proizvodjaci_id" id="6C3504B3-E024-1616-443D-E6AD58789733">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-14 16:30:32 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FD48B17-E96D-4D07-8015-7CAC066ACB66" referredColumn="0988B087-9BC8-D4DD-1487-DA3E14F98C92"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B9ACD5E1-5D17-ACA3-0A56-BE9E429B1DF7" name="Oprema_PK">
@@ -77,6 +91,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="197E746C-E78B-4E14-4485-EB32B1689674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="644A3E37-2FB5-809C-4389-C75F8111ABD7" name="Oprema_Prozivodjaci_opreme_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-14 16:30:32 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C3504B3-E024-1616-443D-E6AD58789733"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

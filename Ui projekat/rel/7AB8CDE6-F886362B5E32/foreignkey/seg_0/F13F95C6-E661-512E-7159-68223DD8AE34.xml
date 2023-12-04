@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F13F95C6-E661-512E-7159-68223DD8AE34" containerWithKeyObject="CC37BCEB-308B-DE67-EE1F-C0D52E013546" localFKIndex="1DB1B55D-BCCF-A509-1971-B48C3E646D79" name="Recenzije_Rezervacije_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-14 16:33:07 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<referredTableLongName>Rezervacije</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1AC76B8-0914-607C-06E3-A0F7F17A4611</referredTableID>
+<keyObject>096B41FF-4885-BCCA-44F2-D9ACF2F87C94</keyObject>
+<referredKeyID>096B41FF-4885-BCCA-44F2-D9ACF2F87C94</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Rezervacija_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

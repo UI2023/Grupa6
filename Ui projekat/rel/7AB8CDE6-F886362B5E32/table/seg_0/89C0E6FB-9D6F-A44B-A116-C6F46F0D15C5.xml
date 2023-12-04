@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89C0E6FB-9D6F-A44B-A116-C6F46F0D15C5" name="Popust">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-27 16:25:17 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_49</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="popust_id" id="8E7F24CA-25C6-3616-58A9-A9301DA5D719">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-27 16:27:11 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iznos_popust" id="7C562342-05CE-6318-E3DC-25744A8E70E2">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-27 16:27:11 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AAD68885-0476-A8A8-F8FC-13354F60C15E" name="Popust_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-11-27 16:27:11 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E7F24CA-25C6-3616-58A9-A9301DA5D719"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

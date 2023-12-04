@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7AD50885-C1B5-9C80-4928-A50241400818" containerWithKeyObject="565CBF38-BF1B-B562-B2C8-0BAE208AC744" localFKIndex="2E1C62BF-BF39-1C09-694E-41771BDF5125" name="Proizvedena_operma_Prozivodjaci_opreme_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3FD48B17-E96D-4D07-8015-7CAC066ACB66" containerWithKeyObject="DC045B09-9F3A-E060-1C99-E82062BF2FF0" localFKIndex="644A3E37-2FB5-809C-4389-C75F8111ABD7" name="Oprema_Prozivodjaci_opreme_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-13 18:26:41 UTC</createdTime>
+<createdTime>2023-11-14 16:30:32 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <referredTableLongName>Prozivodjaci_opreme</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

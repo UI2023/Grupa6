@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CEF4C860-5EA0-1BC3-5407-559EB21CDD6D" name="Pozicija">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDEC13A6-AB40-E918-2BD4-CD2337B9F93C" name="Tip_popusti">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:17:33 UTC</createdTime>
+<createdTime>2023-12-11 13:19:37 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<ordsAlias>table_25</ordsAlias>
+<ordsAlias>table_59</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="pozicija_id" id="CA9C9FE5-3389-9788-BB27-3D8971A18C8F">
+<Column name="tip_popusti_id" id="79703665-1E62-8074-2462-783858E6C61E">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:22:12 UTC</createdTime>
+<createdTime>2023-12-11 13:20:47 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Naziv" id="199C1322-E216-5895-37AF-39F48E4361AE">
+<Column name="Naziv" id="24787749-CD6D-38E6-D06F-B036F82BAA6D">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:22:12 UTC</createdTime>
+<createdTime>2023-12-11 13:20:47 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,28 +30,17 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="plata" id="4314923C-53E0-8329-E131-1CDAB3CC9454">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:22:12 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="71B004BA-0CE3-6006-D96A-03F0B1059579" name="Radno_mesto_PK">
+<ind_PK_UK id="A7D37B48-B3CE-C49B-AA41-14B7A778E7DE" name="Tip_popusti_PK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:22:12 UTC</createdTime>
+<createdTime>2023-12-11 13:21:03 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CA9C9FE5-3389-9788-BB27-3D8971A18C8F"/>
+<colUsage columnID="79703665-1E62-8074-2462-783858E6C61E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

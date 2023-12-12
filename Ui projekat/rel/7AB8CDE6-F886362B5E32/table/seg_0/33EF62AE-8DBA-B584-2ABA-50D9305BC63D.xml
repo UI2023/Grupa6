@@ -1,26 +1,27 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CEF4C860-5EA0-1BC3-5407-559EB21CDD6D" name="Pozicija">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33EF62AE-8DBA-B584-2ABA-50D9305BC63D" name="Privilegije">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:17:33 UTC</createdTime>
+<createdTime>2023-12-11 14:13:05 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<ordsAlias>table_25</ordsAlias>
+<ordsAlias>table_66</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="pozicija_id" id="CA9C9FE5-3389-9788-BB27-3D8971A18C8F">
+<Column name="privilegija_id" id="4AE3B11D-6143-4A54-BF55-D58C1E3D9C0B">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:22:12 UTC</createdTime>
+<createdTime>2023-12-11 14:13:51 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Naziv" id="199C1322-E216-5895-37AF-39F48E4361AE">
+<Column name="Naziv" id="1EDD2A11-1B7D-0F16-1C20-F43C202FD2F9">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:22:12 UTC</createdTime>
+<createdTime>2023-12-11 14:13:51 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,28 +31,42 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="plata" id="4314923C-53E0-8329-E131-1CDAB3CC9454">
+<Column name="Opis" id="59AFEBCE-0E64-F926-7499-DF5668993173">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:22:12 UTC</createdTime>
+<createdTime>2023-12-11 14:13:51 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_zaposleni_id" id="B7FB06C2-2096-B219-68D2-16377E29732F">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 14:14:29 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76C971DD-7B69-0621-EA4D-3576E63D4F36" referredColumn="8D8D2239-3275-2703-2C4B-BEE152DE1B40"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="71B004BA-0CE3-6006-D96A-03F0B1059579" name="Radno_mesto_PK">
+<ind_PK_UK id="5B786FEF-5C1B-C178-AA6B-21E1EEFB67DF" name="Privilegije_Zaposleni_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:22:12 UTC</createdTime>
+<createdTime>2023-12-11 14:14:29 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
+<indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CA9C9FE5-3389-9788-BB27-3D8971A18C8F"/>
+<colUsage columnID="B7FB06C2-2096-B219-68D2-16377E29732F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -29,20 +29,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Rezervacije_Rezervacija_id" id="4D513A6B-3B71-F674-A7BE-6F439C910743">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 16:24:07 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7C6EAD49-315F-6ACF-2678-AEA21EAFCEE8" referredColumn="1CDF5F54-F616-7DD7-839A-A976BE63F123"/>
-</associations>
-</Column>
 <Column name="Popust_popust_id" id="290796F2-7DF7-56C9-AF1C-D4A0EBD53A03">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-11-27 16:27:31 UTC</createdTime>
@@ -72,9 +58,9 @@
 <colAssociation fkAssociation="6C2A1E63-4EA8-A92A-87D8-D3C9D31523D6" referredColumn="BFE43AB0-2029-551E-910A-035AC480B322"/>
 </associations>
 </Column>
-<Column name="Cenovnik_roba_id" id="60944291-5DF1-F22F-9007-8417EE175C62">
+<Column name="Usluge_usluga_id" id="B6E8D7D3-26E7-F27B-BA44-68C14961CADE">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 16:39:00 UTC</createdTime>
+<createdTime>2023-12-11 13:34:17 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -83,7 +69,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E03B9CB5-CA81-4682-10D8-70E96755ABCD" referredColumn="85B4D5E8-5C93-063B-DD62-96AD70F05763"/>
+<colAssociation fkAssociation="6CC7EA47-1852-A7CF-5FB7-DB981B710383" referredColumn="31B4A31B-3440-844C-8718-B6A39F8C7736"/>
 </associations>
 </Column>
 </columns>
@@ -97,16 +83,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D2B79B09-5845-7C61-82C0-FC4EE1B6D978"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="BD2E8F9E-F3B8-92FC-AF67-33B67977F63F" name="Stavke_racuna_Rezervacije_FK">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 16:24:07 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="4D513A6B-3B71-F674-A7BE-6F439C910743"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="0C4D25B7-2A0D-C451-45B5-144C506DDC73" name="Stavke_racuna_Popust_FK">
@@ -129,14 +105,14 @@
 <colUsage columnID="FBA059A0-0A76-9DD2-564A-0D3DC583933F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2B73F448-D7CC-0B76-A648-632AE2C066C5" name="Stavke_racuna_Cenovnik_FK">
+<ind_PK_UK id="29E72854-A1A4-9377-41C9-CDAECF9B094A" name="Stavke_racuna_Usluge_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 16:39:00 UTC</createdTime>
+<createdTime>2023-12-11 13:34:17 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="60944291-5DF1-F22F-9007-8417EE175C62"/>
+<colUsage columnID="B6E8D7D3-26E7-F27B-BA44-68C14961CADE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

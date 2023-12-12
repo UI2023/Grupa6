@@ -90,9 +90,9 @@
 <colAssociation fkAssociation="E2F69910-A62B-7C40-404E-0C5CC31791B3" referredColumn="EFCAC328-7D01-4DA0-8A23-D58AC5812A08"/>
 </associations>
 </Column>
-<Column name="Radno_mesto_radno_mesto_id" id="D52F4147-C98C-CA94-B3A9-A75CF92F7509">
+<Column name="Pozicija_pozicija_id" id="867315E1-A039-639B-13D5-542A44D1E48F">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:25:13 UTC</createdTime>
+<createdTime>2023-12-11 14:02:02 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -101,7 +101,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="2FB61739-16DF-9C49-37D6-E9876C8EF0B3" referredColumn="CA9C9FE5-3389-9788-BB27-3D8971A18C8F"/>
+<colAssociation fkAssociation="719AE9C3-606B-378F-A74D-E6A10951819E" referredColumn="CA9C9FE5-3389-9788-BB27-3D8971A18C8F"/>
 </associations>
 </Column>
 </columns>
@@ -117,13 +117,15 @@
 <colUsage columnID="8D8D2239-3275-2703-2C4B-BEE152DE1B40"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FD7A0842-C3D8-D2D6-3227-5B25B99D6D58" name="Zaposleni__IDX">
+<ind_PK_UK id="026B4D69-121F-2B64-8463-731A17986B0C" name="Zaposleni__IDXv1v1">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-19 18:11:31 UTC</createdTime>
+<createdTime>2023-12-11 14:02:20 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>D1F5DA91-C435-AF24-F024-059E8E0BC82E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="867315E1-A039-639B-13D5-542A44D1E48F"/>
+</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="075FAA8D-0151-48F0-067E-1E87C056397B" name="radi">
 <createdBy>lukaj</createdBy>
@@ -135,14 +137,14 @@
 <colUsage columnID="F7C087AE-5EDE-B3E4-5B3E-A79221496F86"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7D1BDB65-E729-86D8-F51D-796EBACADEF5" name="Zaposleni_Radno_mesto_FK">
+<ind_PK_UK id="55641442-1EEF-76FC-3073-EE17247B1291" name="Zaposleni_Pozicija_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:25:13 UTC</createdTime>
+<createdTime>2023-12-11 14:02:02 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D52F4147-C98C-CA94-B3A9-A75CF92F7509"/>
+<colUsage columnID="867315E1-A039-639B-13D5-542A44D1E48F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

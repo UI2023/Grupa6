@@ -1,26 +1,27 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C48C9F05-3897-663C-6A80-FEF107CE88AD" name="Tip_dodatne_naknade">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB1DEA43-F879-F729-D5DF-1AE5FE2935E8" name="Valuta">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 17:19:21 UTC</createdTime>
+<createdTime>2023-12-11 13:49:50 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<ordsAlias>table_54</ordsAlias>
+<ordsAlias>table_65</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="tip_dodatne_naknade_id" id="2BE6C1E2-1E91-DBCC-CEB0-4EA8E7A354C9">
+<Column name="valuta_id" id="3E1D1A46-2683-9932-19A0-475A370D2871">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 17:21:06 UTC</createdTime>
+<createdTime>2023-12-11 13:50:41 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Naziv" id="390DEB02-5953-E881-0F84-A57FEF443169">
+<Column name="Naziv" id="FCA6A2F0-D645-0CD7-A76F-1A11FAB5755C">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 17:21:06 UTC</createdTime>
+<createdTime>2023-12-11 13:50:41 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,17 +32,4 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
-<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D1316162-94EE-8035-DC0A-97FDCFB88B43" name="Tip_dodatne_naknade_PK">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 17:21:06 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2BE6C1E2-1E91-DBCC-CEB0-4EA8E7A354C9"/>
-</indexColumnUsage>
-</ind_PK_UK>
-</indexes>
 </Table>

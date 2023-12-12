@@ -18,14 +18,39 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="iznos_popust" id="7C562342-05CE-6318-E3DC-25744A8E70E2">
+<Column name="Tip_popusti_tip_popusti_id" id="CF934C6C-3758-77B6-4869-837C11F19169">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 16:27:11 UTC</createdTime>
+<createdTime>2023-12-11 13:21:06 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0129B5C1-51F4-06F1-720F-5F63BFD9F37B" referredColumn="79703665-1E62-8074-2462-783858E6C61E"/>
+</associations>
+</Column>
+<Column name="datum_od" id="543F77EB-0170-E5BF-AFE1-E96F26B7BBC5">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:23:57 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_do" id="19B22179-593F-710B-7FD9-F550DEF5C5A4">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:23:57 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -40,6 +65,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8E7F24CA-25C6-3616-58A9-A9301DA5D719"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="702535FB-1F1B-A6E1-E55C-5D031EE8A1B8" name="Popust_Tip_popusti_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:21:06 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF934C6C-3758-77B6-4869-837C11F19169"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

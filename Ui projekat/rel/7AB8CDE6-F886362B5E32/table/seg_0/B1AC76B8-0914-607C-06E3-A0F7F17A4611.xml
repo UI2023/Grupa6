@@ -172,6 +172,20 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Usluge_usluga_id" id="066EA334-5907-A39F-4DE8-3C77CA1627EC">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:32:00 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="888F2EFF-8890-F7DC-374B-45960D852CE1" referredColumn="31B4A31B-3440-844C-8718-B6A39F8C7736"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="096B41FF-4885-BCCA-44F2-D9ACF2F87C94" name="Rezervacije_PK">
@@ -183,6 +197,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1CDF5F54-F616-7DD7-839A-A976BE63F123"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F38C6E7-9BF3-7BDD-A1F1-44C7332679CC" name="Rezervacije__IDX">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:33:46 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="066EA334-5907-A39F-4DE8-3C77CA1627EC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="C600CBD1-DA14-1F0A-3307-14733C36C243" name="Rezervacije_Lokacije_FKv1">
@@ -244,6 +268,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AE4E4D6C-33B0-858A-BA3F-5EA888E9D1D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D72D592-91E7-B847-EF98-128DE9D6A118" name="Rezervacije_Usluge_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:32:00 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="066EA334-5907-A39F-4DE8-3C77CA1627EC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

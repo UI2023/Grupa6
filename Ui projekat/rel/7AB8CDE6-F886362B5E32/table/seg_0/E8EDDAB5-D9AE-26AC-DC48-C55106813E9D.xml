@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8EDDAB5-D9AE-26AC-DC48-C55106813E9D" name="Popust_na_procenat">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:21:17 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_60</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="procenat" id="98004C50-2B07-5359-D74C-4D3AE4B79E6F">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:24:57 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Popust_popust_id" id="EAEFE583-4788-4428-F553-79132C2DB0C3">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:26:29 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81458446-2518-C23D-F6C5-2B8FB3E3617F" referredColumn="8E7F24CA-25C6-3616-58A9-A9301DA5D719"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFCF322B-BAC2-B4B1-451B-E6411DF7B5F5" name="Popust_na_procenat__IDX">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:27:16 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAEFE583-4788-4428-F553-79132C2DB0C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC45ABEC-261F-55C5-F722-A25889B3003C" name="Popust_na_procenat_Popust_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:26:29 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAEFE583-4788-4428-F553-79132C2DB0C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

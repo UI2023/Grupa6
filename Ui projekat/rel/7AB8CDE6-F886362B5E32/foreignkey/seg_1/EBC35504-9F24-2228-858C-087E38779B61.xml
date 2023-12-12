@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="EBC35504-9F24-2228-858C-087E38779B61" containerWithKeyObject="87B1C161-1103-388E-59A8-40CA2739EC33" localFKIndex="B33FE561-7F15-7404-C1BF-CD00F9940524" name="Istorija_sektora_Smena_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 14:07:00 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<referredTableLongName>Smena</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>941C27E7-8C92-9D1C-1488-755CDDCA4917</referredTableID>
+<keyObject>37865F1E-B8AC-600A-02F7-A2464587E272</keyObject>
+<referredKeyID>37865F1E-B8AC-600A-02F7-A2464587E272</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>smena_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -8,28 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="roba_id" id="85B4D5E8-5C93-063B-DD62-96AD70F05763">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 16:38:48 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Naziv_robe" id="86C8D9E7-0487-89C9-D5B2-C1EE3571B74C">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 16:38:48 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1000</dataTypeSize>
-<ownDataTypeParameters>1000,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="cena" id="8639DE58-536E-0458-4C5F-BE8FFD2E92F9">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-11-27 16:38:48 UTC</createdTime>
@@ -42,6 +20,52 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Racun_racun_id" id="9775B919-985D-935D-B39B-976B78300D7B">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:35:59 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E429F06-6D69-0914-37E0-5355C1452181" referredColumn="BFE43AB0-2029-551E-910A-035AC480B322"/>
+</associations>
+</Column>
+<Column name="cenovnik_id" id="D599D311-096A-7C79-A578-D6CAACEBA04D">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:38:36 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_od" id="B08263C5-4D0F-A0F2-BEBE-C5AA0A59480D">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:38:36 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_do" id="152E5B18-E7A4-0C90-EE09-EDFF23419B6C">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:38:36 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="97A6EDEE-0870-1841-16B6-7586A2402956" name="Cenovnik_PK">
@@ -52,7 +76,27 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="85B4D5E8-5C93-063B-DD62-96AD70F05763"/>
+<colUsage columnID="D599D311-096A-7C79-A578-D6CAACEBA04D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2F9F8D2-1817-0DF7-9075-68B55FF07B3D" name="Cenovnik__IDX">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:36:21 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9775B919-985D-935D-B39B-976B78300D7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5385F8FA-25D8-E15E-C3C0-5A132AC26454" name="Cenovnik_Racun_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-11 13:35:59 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9775B919-985D-935D-B39B-976B78300D7B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

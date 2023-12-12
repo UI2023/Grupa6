@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F944A3F1-5A3A-992E-B575-813FC16BA98D" containerWithKeyObject="941C27E7-8C92-9D1C-1488-755CDDCA4917" localFKIndex="A312BC29-387E-7E7F-752E-E69D914B7009" name="Istorija_radnog_mesta_Radno_mesto_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="719AE9C3-606B-378F-A74D-E6A10951819E" containerWithKeyObject="566540A4-1804-1633-9AD4-403BA1E63934" localFKIndex="55641442-1EEF-76FC-3073-EE17247B1291" name="Zaposleni_Pozicija_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-13 17:54:40 UTC</createdTime>
+<createdTime>2023-12-11 14:02:02 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<referredTableLongName>Radno_mesto</referredTableLongName>
+<referredTableLongName>Pozicija</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>CEF4C860-5EA0-1BC3-5407-559EB21CDD6D</referredTableID>
 <keyObject>71B004BA-0CE3-6006-D96A-03F0B1059579</keyObject>
 <referredKeyID>71B004BA-0CE3-6006-D96A-03F0B1059579</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>radno_mesto_id</refColNames>
+<refColNames>pozicija_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

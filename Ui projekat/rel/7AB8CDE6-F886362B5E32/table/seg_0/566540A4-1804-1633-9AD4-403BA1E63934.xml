@@ -90,9 +90,9 @@
 <colAssociation fkAssociation="E2F69910-A62B-7C40-404E-0C5CC31791B3" referredColumn="EFCAC328-7D01-4DA0-8A23-D58AC5812A08"/>
 </associations>
 </Column>
-<Column name="Pozicija_pozicija_id" id="867315E1-A039-639B-13D5-542A44D1E48F">
+<Column name="Kvalifikacija_i_obrazovanje_obrazovanje_id" id="D865D475-4F5C-2874-67F3-6762AE476367">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-11 14:02:02 UTC</createdTime>
+<createdTime>2023-12-18 19:57:47 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -101,7 +101,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="719AE9C3-606B-378F-A74D-E6A10951819E" referredColumn="CA9C9FE5-3389-9788-BB27-3D8971A18C8F"/>
+<colAssociation fkAssociation="4BBDFA01-C176-FEC2-1C90-EEBC9A91C77C" referredColumn="026C6941-5798-46DB-9E3F-52586AE9477B"/>
 </associations>
 </Column>
 </columns>
@@ -123,9 +123,6 @@
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="867315E1-A039-639B-13D5-542A44D1E48F"/>
-</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="075FAA8D-0151-48F0-067E-1E87C056397B" name="radi">
 <createdBy>lukaj</createdBy>
@@ -137,14 +134,14 @@
 <colUsage columnID="F7C087AE-5EDE-B3E4-5B3E-A79221496F86"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="55641442-1EEF-76FC-3073-EE17247B1291" name="Zaposleni_Pozicija_FK">
+<ind_PK_UK id="0E7C40B4-F714-CDE3-43B5-B957AD0DCAE9" name="Zaposleni_Kvalifikacija_i_obrazovanje_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-11 14:02:02 UTC</createdTime>
+<createdTime>2023-12-18 19:57:47 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="867315E1-A039-639B-13D5-542A44D1E48F"/>
+<colUsage columnID="D865D475-4F5C-2874-67F3-6762AE476367"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

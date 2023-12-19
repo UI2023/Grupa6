@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="651377AF-1A19-9653-3FFA-FD883E6F09AC" name="Zaposleni_sa_prvilegijama">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:17:51 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_64</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zaposleni_zaposleni_id" id="6A2B7E04-11CA-E042-CAAC-014EFE9D1FA3">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:18:13 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D595A61B-9C74-E4F1-0037-66AB528312D2" referredColumn="8D8D2239-3275-2703-2C4B-BEE152DE1B40"/>
+</associations>
+</Column>
+<Column name="Privilegije_privilegija_id" id="6F86EA72-2ACC-D22F-6DBD-796C56B00061">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:18:55 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CA42622-2C82-7ECF-6A2B-82C80B00B952" referredColumn="4AE3B11D-6143-4A54-BF55-D58C1E3D9C0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73A8E0A4-0BE9-494F-FAF6-ABA13EF0BBA0" name="Zaposleni_sa_prvilegijama_Zaposleni_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:18:13 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A2B7E04-11CA-E042-CAAC-014EFE9D1FA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F67C0CE-AD19-D710-0725-FA8DA3B91D76" name="Zaposleni_sa_prvilegijama_Privilegije_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:18:55 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F86EA72-2ACC-D22F-6DBD-796C56B00061"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

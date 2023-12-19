@@ -12,7 +12,6 @@
 <createdBy>lukaj</createdBy>
 <createdTime>2023-12-11 14:13:51 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -43,30 +42,17 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Zaposleni_zaposleni_id" id="B7FB06C2-2096-B219-68D2-16377E29732F">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-12-11 14:14:29 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="76C971DD-7B69-0621-EA4D-3576E63D4F36" referredColumn="8D8D2239-3275-2703-2C4B-BEE152DE1B40"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5B786FEF-5C1B-C178-AA6B-21E1EEFB67DF" name="Privilegije_Zaposleni_FK">
+<ind_PK_UK id="8F63654F-0595-2E51-AEFE-143F19B65EDD" name="Privilegije_PK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-11 14:14:29 UTC</createdTime>
+<createdTime>2023-12-18 18:18:32 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B7FB06C2-2096-B219-68D2-16377E29732F"/>
+<colUsage columnID="4AE3B11D-6143-4A54-BF55-D58C1E3D9C0B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

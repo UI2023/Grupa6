@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8492FBFD-90C4-F1D7-2349-51616B5629B4" containerWithKeyObject="A6958DFC-F8F5-856A-0B22-2AEAE0707E5B" localFKIndex="B7113501-862A-303E-CDB6-E61E1034F2A8" name="Racun_Kursna_lista_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:29:22 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<referredTableLongName>Kursna_lista</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>314678C1-CDC1-C7BA-E7C5-968B3EC26934</referredTableID>
+<keyObject>AF1BAE56-F541-A611-24AD-531AAB673F28</keyObject>
+<referredKeyID>AF1BAE56-F541-A611-24AD-531AAB673F28</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>kursna_lista_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

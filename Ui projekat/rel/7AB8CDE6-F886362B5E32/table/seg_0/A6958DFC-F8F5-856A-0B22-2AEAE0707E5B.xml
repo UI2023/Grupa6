@@ -83,6 +83,32 @@
 <colAssociation fkAssociation="AB42E88B-A55B-F457-A129-AFC6A3D49A90" referredColumn="49438BAD-2FF0-5EBF-5C77-206EE8565AB6"/>
 </associations>
 </Column>
+<Column name="ukupna_cena" id="B1F49DFE-CEEA-2697-A7A8-E0AAD4C01E58">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:27:53 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kursna_lista_kursna_lista_id" id="126B23A4-EAC1-F876-EE53-801B789AF9C9">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:29:22 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8492FBFD-90C4-F1D7-2349-51616B5629B4" referredColumn="9D44D7A3-D6FC-FCAD-419E-79E6036AA7B5"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1504FC89-CA8E-15F5-A31E-4135D04A441B" name="Racun_PK">
@@ -124,6 +150,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A6DEA867-8E3B-B603-324C-23103023386E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7113501-862A-303E-CDB6-E61E1034F2A8" name="Racun_Kursna_lista_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:29:22 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="126B23A4-EAC1-F876-EE53-801B789AF9C9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,16 +1,26 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87B1C161-1103-388E-59A8-40CA2739EC33" name="Istorija_sektora">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="4D680A6B-39FC-789A-B6FF-F0840D7F939B" name="Period_pokrica">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-13 17:55:04 UTC</createdTime>
+<createdTime>2023-12-18 19:41:16 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<ordsAlias>table_46</ordsAlias>
+<ordsAlias>table_72</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="datum_do" id="8B35ADB2-D930-1D87-694C-EC6D4B06770A">
+<Column name="period_pokrica_id" id="6827E855-D5E2-18EA-3E30-AB3E1142735A">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 16:47:02 UTC</createdTime>
+<createdTime>2023-12-18 19:42:45 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_od" id="19597FBB-5F9E-A7AC-4D53-4271B7983E9D">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 19:42:45 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +29,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="datum_od" id="E13AF07B-9D64-0849-89A3-55F0AFE0A315">
+<Column name="datum_do" id="1B930CC8-6C35-74D5-C613-FC365C43D5E5">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-11-27 16:47:02 UTC</createdTime>
+<createdTime>2023-12-18 19:42:45 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,23 +40,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Zaposleni_zaposleni_id" id="3F5CD518-6FA3-0CAF-F739-1241C641749C">
+<Column name="premija" id="0110740F-3A1D-4272-6882-3FB1498058D7">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-11 14:03:33 UTC</createdTime>
+<createdTime>2023-12-18 19:42:45 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="3DEA242F-5519-D1C4-4361-B1F809150E36" referredColumn="8D8D2239-3275-2703-2C4B-BEE152DE1B40"/>
-</associations>
 </Column>
-<Column name="Sektori_sektor_id" id="7BE20496-223D-8CC5-3BBB-745F522C1FF5">
+<Column name="Osiguranje_Osiguranje_id" id="69362B47-D0A4-C6A2-8B20-7899FC9AB59D">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-11 14:03:49 UTC</createdTime>
+<createdTime>2023-12-18 19:42:54 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -55,29 +63,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0497FAA7-8363-E328-9155-D1151553E67D" referredColumn="EFCAC328-7D01-4DA0-8A23-D58AC5812A08"/>
+<colAssociation fkAssociation="BFAE37D8-85F9-6236-77A2-156164E85FA1" referredColumn="23AF9675-943D-AC91-F165-62C25D6C50D5"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A72CE9A3-3439-F9C5-B442-E24EAB36283B" name="Istorija_sektora_Zaposleni_FK">
+<ind_PK_UK id="2F644306-E1D8-170E-AB3A-D38F81049B41" name="Period_pokrica_PK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-11 14:03:33 UTC</createdTime>
+<createdTime>2023-12-18 19:42:45 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3F5CD518-6FA3-0CAF-F739-1241C641749C"/>
+<colUsage columnID="6827E855-D5E2-18EA-3E30-AB3E1142735A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2F8C1FE3-2E77-F361-EB01-81DAFBF4F202" name="Istorija_sektora_Sektori_FK">
+<ind_PK_UK id="BA8CAD53-D8A8-A632-1884-A7B0F6321DFC" name="Period_pokrica_Osiguranje_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-11 14:03:49 UTC</createdTime>
+<createdTime>2023-12-18 19:42:54 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7BE20496-223D-8CC5-3BBB-745F522C1FF5"/>
+<colUsage columnID="69362B47-D0A4-C6A2-8B20-7899FC9AB59D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

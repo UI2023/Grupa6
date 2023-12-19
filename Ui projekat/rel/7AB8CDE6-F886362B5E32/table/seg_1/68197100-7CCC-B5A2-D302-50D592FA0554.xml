@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="68197100-7CCC-B5A2-D302-50D592FA0554" name="Istorija_osiguranja">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 19:45:30 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_75</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Osiguranje_Osiguranje_id" id="133CF16B-CEA2-4DA3-3445-1EE2A96832F3">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 19:45:45 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="727C97A4-7A81-D609-855F-9CBAE763C68F" referredColumn="23AF9675-943D-AC91-F165-62C25D6C50D5"/>
+</associations>
+</Column>
+<Column name="Vozila_vozilo_id" id="018A2969-C17D-2A0F-28B3-662B810697C7">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 19:45:52 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23906425-DF2A-8D47-AD18-8828B0D90AE9" referredColumn="5E8C68B1-C3A3-8E0D-BD28-C246DED94D1E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="846ADD28-D8B8-ABC5-01A8-3FD05AC882BF" name="Istorija_osiguranja_Osiguranje_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 19:45:45 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="133CF16B-CEA2-4DA3-3445-1EE2A96832F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FED2FABB-52CB-A9D8-0CB7-722DC87B9A44" name="Istorija_osiguranja_Vozila_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 19:45:52 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="018A2969-C17D-2A0F-28B3-662B810697C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

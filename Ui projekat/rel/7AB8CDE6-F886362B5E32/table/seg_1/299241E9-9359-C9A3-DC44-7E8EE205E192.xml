@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="299241E9-9359-C9A3-DC44-7E8EE205E192" name="Obavestenja_zaposlenih">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 19:30:20 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_71</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Obavestenja_obavestenja_id" id="968CCEC9-105E-105A-0A32-6461329CD26C">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 19:31:03 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFC95795-4BAB-8EB7-6EE9-E52AAD915966" referredColumn="5F110831-B762-731D-0404-30A9E4B24E7E"/>
+</associations>
+</Column>
+<Column name="Zaposleni_zaposleni_id" id="0A7CA79E-AC34-2134-21DC-82D4C31A2343">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 19:31:16 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD0F9442-2F8B-F932-D982-686C06B48FB5" referredColumn="8D8D2239-3275-2703-2C4B-BEE152DE1B40"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDCDF558-B2FA-91FC-08F3-DD08782BECF6" name="Obavestenja_zaposlenih_Obavestenja_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 19:31:03 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="968CCEC9-105E-105A-0A32-6461329CD26C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AC52301-6756-ABFA-D502-1F6D7C910B93" name="Obavestenja_zaposlenih_Zaposleni_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 19:31:16 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A7CA79E-AC34-2134-21DC-82D4C31A2343"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

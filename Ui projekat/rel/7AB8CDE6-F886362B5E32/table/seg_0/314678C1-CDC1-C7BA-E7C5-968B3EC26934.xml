@@ -41,6 +41,58 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="kupovni_kurs" id="94375FAA-6738-994C-CC60-31183C41C5D5">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:28:47 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prodajni_kurs" id="A145BADC-B591-49C4-9E67-8A17F9E01228">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:28:47 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valuta_valuta_id" id="E14FDC0F-6469-FCB8-BA6D-0010DF6F8A92">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:30:33 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA281BBF-3E24-810B-9A08-992980D791E4" referredColumn="3E1D1A46-2683-9932-19A0-475A370D2871"/>
+</associations>
+</Column>
+<Column name="Valuta_valuta_id1" id="8BEF0F57-0958-A9B4-2E32-589BF6CE8972">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:30:45 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="366DE4AB-9723-A392-FC90-37AA5D5BC836" referredColumn="3E1D1A46-2683-9932-19A0-475A370D2871"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="AF1BAE56-F541-A611-24AD-531AAB673F28" name="Kursna_lista_PK">
@@ -52,6 +104,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9D44D7A3-D6FC-FCAD-419E-79E6036AA7B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99B0A670-D89B-B098-1CC1-8B35131D83C0" name="Kursna_lista_Valuta_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:30:33 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E14FDC0F-6469-FCB8-BA6D-0010DF6F8A92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4EF921D-14AA-066E-5800-AF589670B3E3" name="Kursna_lista_Valuta_FKv2">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:30:45 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BEF0F57-0958-A9B4-2E32-589BF6CE8972"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

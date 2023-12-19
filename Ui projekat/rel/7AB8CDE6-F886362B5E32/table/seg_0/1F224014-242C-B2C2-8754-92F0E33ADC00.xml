@@ -1,26 +1,27 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A5B70FB-F654-7421-EF5E-A88012583E0A" name="Aukcija">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F224014-242C-B2C2-8754-92F0E33ADC00" name="Ugovorni_period">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-04 17:14:01 UTC</createdTime>
+<createdTime>2023-12-18 18:31:50 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<ordsAlias>table_55</ordsAlias>
+<ordsAlias>table_66</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="aukcija_id" id="2D3CC562-A057-76DC-B30B-100E1766FFA3">
+<Column name="ugovorni_period_id" id="A8A044E5-CAA1-CF77-D61B-BA366B8FF69B">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-04 17:23:05 UTC</createdTime>
+<createdTime>2023-12-18 18:33:13 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="datum" id="B323622C-07C9-0FFD-A096-92047E4A8F55">
+<Column name="datum_od" id="7C328B00-9445-3CD0-E13A-B9299BEEA2D4">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-04 17:23:05 UTC</createdTime>
+<createdTime>2023-12-18 18:33:13 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -29,34 +30,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="vreme" id="FEB59C73-0419-7114-0349-68AB91FF6C0D">
+<Column name="datum_do" id="666F839B-5708-F4BF-3C90-595FCBDF6DD7">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-04 17:23:05 UTC</createdTime>
+<createdTime>2023-12-18 18:33:13 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tip_aukcije_tip_aukcije_id" id="167EC74A-D535-9271-A373-F9CC2178CB4F">
+<Column name="opis" id="1E294AC1-9628-3210-BB64-695F3FB9ADC1">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-04 17:25:45 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B294C263-22A5-B90E-DD4E-0423663FD349" referredColumn="7DE23A5D-2803-0224-C5CC-FCD4965E4E74"/>
-</associations>
-</Column>
-<Column name="status" id="966315F1-C544-80AC-5B02-D8B160152A45">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-12-18 18:54:20 UTC</createdTime>
+<createdTime>2023-12-18 18:33:13 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,27 +53,41 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Pozicija_pozicija_id" id="AB9AC141-8609-978D-1666-D81E830A9675">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:33:46 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65D286F8-3B40-A9DB-F114-5D79C4D48A92" referredColumn="CA9C9FE5-3389-9788-BB27-3D8971A18C8F"/>
+</associations>
+</Column>
+<Column name="plata" id="A061EE0E-B901-F3DC-84E2-95B5AE48E81F">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:40:52 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="586D4273-CC08-53B5-5964-9605DD381E75" name="Aukcija_PK">
+<ind_PK_UK id="D02BA0D0-2FD5-0DAF-5848-1049DD171E74" name="Ugovorni_period_Pozicija_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-04 17:23:05 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2D3CC562-A057-76DC-B30B-100E1766FFA3"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="E014D1D9-55C5-9C4D-4AE3-61167D6064C9" name="Aukcija_Tip_aukcije_FK">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-12-04 17:25:45 UTC</createdTime>
+<createdTime>2023-12-18 18:33:46 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="167EC74A-D535-9271-A373-F9CC2178CB4F"/>
+<colUsage columnID="AB9AC141-8609-978D-1666-D81E830A9675"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

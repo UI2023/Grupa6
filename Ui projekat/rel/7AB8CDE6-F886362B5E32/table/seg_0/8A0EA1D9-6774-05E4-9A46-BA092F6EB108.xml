@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A0EA1D9-6774-05E4-9A46-BA092F6EB108" name="Usluge_rezervacija">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:20:28 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_65</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rezervacije_Rezervacija_id" id="128E84A3-29FA-E118-699A-EB9950B15F97">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:21:31 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20AA4A7E-94CD-940E-CF85-4BF03C7E2953" referredColumn="1CDF5F54-F616-7DD7-839A-A976BE63F123"/>
+</associations>
+</Column>
+<Column name="Usluge_usluga_id" id="3E11A1C8-D5B2-8FF7-D6F8-2ED810315698">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:21:58 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5067EF06-71D4-349D-F197-0B55BA0AA57F" referredColumn="31B4A31B-3440-844C-8718-B6A39F8C7736"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9BF614B-5189-AC69-E24D-D04085B8E0C6" name="Usluge_rezervacija_Rezervacije_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:21:31 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="128E84A3-29FA-E118-699A-EB9950B15F97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBF6DF7B-5717-277C-D5D6-291705C2CF89" name="Usluge_rezervacija_Usluge_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:21:58 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E11A1C8-D5B2-8FF7-D6F8-2ED810315698"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

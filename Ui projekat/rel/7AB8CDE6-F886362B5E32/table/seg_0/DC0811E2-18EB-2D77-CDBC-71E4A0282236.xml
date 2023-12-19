@@ -20,20 +20,6 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Racun_racun_id" id="9775B919-985D-935D-B39B-976B78300D7B">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-12-11 13:35:59 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="5E429F06-6D69-0914-37E0-5355C1452181" referredColumn="BFE43AB0-2029-551E-910A-035AC480B322"/>
-</associations>
-</Column>
 <Column name="cenovnik_id" id="D599D311-096A-7C79-A578-D6CAACEBA04D">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-12-11 13:38:36 UTC</createdTime>
@@ -85,19 +71,6 @@
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9775B919-985D-935D-B39B-976B78300D7B"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="5385F8FA-25D8-E15E-C3C0-5A132AC26454" name="Cenovnik_Racun_FK">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-12-11 13:35:59 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9775B919-985D-935D-B39B-976B78300D7B"/>
-</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

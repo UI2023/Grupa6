@@ -12,7 +12,6 @@
 <createdBy>lukaj</createdBy>
 <createdTime>2023-12-11 13:50:41 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -32,4 +31,17 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECD44463-1F8A-6A2B-2D65-BE650FBD206B" name="Valuta_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:30:27 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E1D1A46-2683-9932-19A0-475A370D2871"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

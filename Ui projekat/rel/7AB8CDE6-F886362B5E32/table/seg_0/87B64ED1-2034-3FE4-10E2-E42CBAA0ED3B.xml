@@ -55,28 +55,6 @@
 <colAssociation fkAssociation="6611FD70-5851-AAE8-4148-25F0782188DB" referredColumn="5E8C68B1-C3A3-8E0D-BD28-C246DED94D1E"/>
 </associations>
 </Column>
-<Column name="Datum_do" id="670084A1-7DBF-C54D-42DC-BC2DAFAE7152">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:52:05 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Datum_od" id="7D4A00B0-8654-1A1B-1DDD-3E51A96D749A">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-23 16:52:05 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Tip_Osigruanje_tip_osigruanja_id" id="32061424-636A-E82D-762B-CA8337A93D9B">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-23 16:58:13 UTC</createdTime>
@@ -104,6 +82,18 @@
 <associations>
 <colAssociation fkAssociation="4F33F1D9-5A08-D194-AEFC-B378CA638A37" referredColumn="4452122A-A94F-D3EF-6A8B-68A1E4418BDB"/>
 </associations>
+</Column>
+<Column name="franciza" id="5D0C24B4-5F16-530E-CEB5-5236E0648681">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 19:43:54 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

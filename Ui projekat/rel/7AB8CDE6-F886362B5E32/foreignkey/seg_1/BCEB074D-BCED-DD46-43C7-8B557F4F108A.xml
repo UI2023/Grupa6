@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="BCEB074D-BCED-DD46-43C7-8B557F4F108A" containerWithKeyObject="6D1B09B7-0734-AB45-BE58-9215FA3BEEBA" localFKIndex="2CBEBB19-DA8C-B725-B74F-B6ED529DD5F0" name="Sertifikati_zaposlenog_Strucni_sertifikati_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 20:01:22 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<referredTableLongName>Strucni_sertifikati</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77FE5732-8481-9251-7427-99327E3E99D2</referredTableID>
+<keyObject>46046B1D-DCD5-FB3E-8B74-F7EED55844ED</keyObject>
+<referredKeyID>46046B1D-DCD5-FB3E-8B74-F7EED55844ED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>strucni_sertifikati_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

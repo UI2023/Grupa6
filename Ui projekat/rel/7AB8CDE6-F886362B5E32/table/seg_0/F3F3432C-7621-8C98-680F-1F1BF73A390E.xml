@@ -56,6 +56,20 @@
 <colAssociation fkAssociation="06AB632C-AD9C-C02D-932B-C0508717570E" referredColumn="45003BFF-74FE-BCC9-D04A-606627BDEC2A"/>
 </associations>
 </Column>
+<Column name="Cenovnik_cenovnik_id" id="5B50D7E0-7D6F-EE4E-323B-B722432CB386">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:26:11 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E221F1E-BEA9-3777-94EC-9A9E3F23D55F" referredColumn="D599D311-096A-7C79-A578-D6CAACEBA04D"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="318F15BA-84BB-1032-DBCF-9C9F0FF385C9" name="Usluga_PK">
@@ -77,6 +91,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0D75D22D-8623-FB1C-9574-DFE8C1914D16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56EF3ADD-80B4-8D20-9EF8-C26734EE2053" name="Usluge_Cenovnik_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:26:11 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B50D7E0-7D6F-EE4E-323B-B722432CB386"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

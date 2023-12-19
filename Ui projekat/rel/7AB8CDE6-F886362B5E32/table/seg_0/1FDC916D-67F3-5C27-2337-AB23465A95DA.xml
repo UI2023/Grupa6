@@ -40,11 +40,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Zaposleni_zaposleni_id" id="47D58381-E264-88EC-B79E-9945E2638A5D">
+<Column name="Pozicija_pozicija_id" id="2DD0610B-984A-1EE8-C482-75148E2403A1">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-11 14:08:56 UTC</createdTime>
+<createdTime>2023-12-18 18:40:10 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -52,7 +51,21 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="EE30E1E6-BB91-5448-9E46-61AEF32BCDFE" referredColumn="8D8D2239-3275-2703-2C4B-BEE152DE1B40"/>
+<colAssociation fkAssociation="6A6AC02C-BA9E-FF38-EBAC-0473CB75240E" referredColumn="CA9C9FE5-3389-9788-BB27-3D8971A18C8F"/>
+</associations>
+</Column>
+<Column name="Zaposleni_zaposleni_id" id="6D32D18E-4C76-5148-338D-7381621E5632">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:40:13 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A1E6EFE-972A-C22B-70BA-1121E05662D2" referredColumn="8D8D2239-3275-2703-2C4B-BEE152DE1B40"/>
 </associations>
 </Column>
 </columns>
@@ -68,14 +81,24 @@
 <colUsage columnID="94E39B86-BD66-A623-F42F-61D36C41ED8D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FF714540-5BE7-BCEF-C39D-9A86617571FE" name="Istorija_poslova_Zaposleni_FK">
+<ind_PK_UK id="1BCA3577-D297-91F7-68B9-1A1B9B2BF321" name="Istorija_poslova_Pozicija_FK">
 <createdBy>lukaj</createdBy>
-<createdTime>2023-12-11 14:08:56 UTC</createdTime>
+<createdTime>2023-12-18 18:40:10 UTC</createdTime>
 <ownerDesignName>Ui projekat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="47D58381-E264-88EC-B79E-9945E2638A5D"/>
+<colUsage columnID="2DD0610B-984A-1EE8-C482-75148E2403A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8557D381-001C-D5C6-E59A-7AABF2C137B2" name="Istorija_poslova_Zaposleni_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:40:13 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D32D18E-4C76-5148-338D-7381621E5632"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

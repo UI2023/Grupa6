@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98814C4D-C9E3-E214-383E-5B2C2EEEA216" name="Smena_zaposlenog">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:41:43 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_67</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zaposleni_zaposleni_id" id="1539D791-7A22-6A44-A85C-6DA1B97300E0">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:42:04 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78EC2343-9DEB-F2A2-4980-293B02AC8D2D" referredColumn="8D8D2239-3275-2703-2C4B-BEE152DE1B40"/>
+</associations>
+</Column>
+<Column name="Smena_smena_id" id="E70AF194-6B6C-059E-2AAE-79A7764C8AFE">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:42:08 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BF5905B-F207-0FBD-6835-81F858193956" referredColumn="911799E1-90EE-701B-CD4C-9D9D99078642"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF7B3222-4118-3585-AC43-A31D4340973C" name="Smena_zaposlenog_Zaposleni_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:42:04 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1539D791-7A22-6A44-A85C-6DA1B97300E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A5535FE-89AA-6B3E-70C0-017260D004B5" name="Smena_zaposlenog_Smena_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2023-12-18 18:42:07 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E70AF194-6B6C-059E-2AAE-79A7764C8AFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

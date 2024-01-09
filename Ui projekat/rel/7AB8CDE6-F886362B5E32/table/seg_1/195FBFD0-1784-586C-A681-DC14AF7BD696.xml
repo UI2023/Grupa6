@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="195FBFD0-1784-586C-A681-DC14AF7BD696" name="Isorija_kategorija_najma">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:17:53 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_78</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vozila_vozilo_id" id="EBA58964-AD4E-6C06-867B-631837A581BB">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:18:09 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85AD553F-304B-83E6-CFDA-53C71C11813E" referredColumn="5E8C68B1-C3A3-8E0D-BD28-C246DED94D1E"/>
+</associations>
+</Column>
+<Column name="Kategorije_najma_Kategorija_najma_id" id="A39F5494-A450-78F2-9ABD-5EB466B1BAC4">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:18:13 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4156ED4E-0C1D-1100-FF16-D32E7FA10EF6" referredColumn="70B1DD03-8CE3-BF6E-D0F6-44B22A6D7220"/>
+</associations>
+</Column>
+<Column name="datum_od" id="6DF1AD6B-A821-38C7-5313-26389BAFBFAF">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:18:36 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_do" id="E63188E0-9900-94FD-51AF-EBF5CA8EEF33">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:18:36 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64D208CC-AC6B-D637-BD14-C412C8B4514D" name="Isorija_kategorija_najma_Vozila_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:18:09 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBA58964-AD4E-6C06-867B-631837A581BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9418F379-448E-C273-BC63-51D3467388C0" name="Isorija_kategorija_najma_Kategorije_najma_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:18:13 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A39F5494-A450-78F2-9ABD-5EB466B1BAC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

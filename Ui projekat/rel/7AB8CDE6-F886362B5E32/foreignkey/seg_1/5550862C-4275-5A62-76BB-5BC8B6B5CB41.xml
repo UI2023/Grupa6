@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="5550862C-4275-5A62-76BB-5BC8B6B5CB41" containerWithKeyObject="765D1F14-F403-0527-A2EE-ADE6EABED42C" localFKIndex="76296411-B8E0-C674-3991-5ABBC91F2812" name="Uslovi_aukcije_Aukcija_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:23:58 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<referredTableLongName>Aukcija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7A5B70FB-F654-7421-EF5E-A88012583E0A</referredTableID>
+<keyObject>586D4273-CC08-53B5-5964-9605DD381E75</keyObject>
+<referredKeyID>586D4273-CC08-53B5-5964-9605DD381E75</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>aukcija_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

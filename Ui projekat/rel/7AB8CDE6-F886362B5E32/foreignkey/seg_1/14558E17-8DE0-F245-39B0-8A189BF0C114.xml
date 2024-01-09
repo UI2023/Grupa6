@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="14558E17-8DE0-F245-39B0-8A189BF0C114" containerWithKeyObject="83F5F699-986B-5654-19AA-D6BCE068499C" localFKIndex="A3CDB11A-EE1A-0DF4-DD17-9217EC651BF0" name="Uslovi_otkazivanja_osiguranja_Uslovi_otkazivanja_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:20:53 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<referredTableLongName>Uslovi_otkazivanja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FD4BD873-73EF-2DE7-636F-2D8245D8AAEF</referredTableID>
+<keyObject>A1716785-65C6-9B7E-F1CE-60D8811E8F92</keyObject>
+<referredKeyID>A1716785-65C6-9B7E-F1CE-60D8811E8F92</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>uslov_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

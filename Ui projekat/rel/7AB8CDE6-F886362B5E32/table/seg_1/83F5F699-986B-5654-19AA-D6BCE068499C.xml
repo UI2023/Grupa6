@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="83F5F699-986B-5654-19AA-D6BCE068499C" name="Uslovi_otkazivanja_osiguranja">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:20:19 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_80</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Osiguranje_Osiguranje_id" id="3CBA3008-E4CD-0DC3-D571-7E0C7CB72FAF">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:20:50 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAB003F8-D015-4990-C1A2-B9B7E85F53A7" referredColumn="23AF9675-943D-AC91-F165-62C25D6C50D5"/>
+</associations>
+</Column>
+<Column name="Uslovi_otkazivanja_uslov_id" id="86BF7592-432E-5435-AF69-F05CFC92364F">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:20:53 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14558E17-8DE0-F245-39B0-8A189BF0C114" referredColumn="5F669E34-D7B0-9764-7603-8C51A7F89370"/>
+</associations>
+</Column>
+<Column name="datum_od" id="9C1DF7A7-EA41-FEB2-2797-4F3BAC34DB84">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:21:18 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_do" id="896A8859-1EE7-42CC-22AC-5E2E260E3498">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:21:18 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D2EAB52-21AC-E859-C8E3-065F10A080F1" name="Uslovi_otkazivanja_osiguranja_Osiguranje_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:20:50 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CBA3008-E4CD-0DC3-D571-7E0C7CB72FAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3CDB11A-EE1A-0DF4-DD17-9217EC651BF0" name="Uslovi_otkazivanja_osiguranja_Uslovi_otkazivanja_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:20:53 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86BF7592-432E-5435-AF69-F05CFC92364F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

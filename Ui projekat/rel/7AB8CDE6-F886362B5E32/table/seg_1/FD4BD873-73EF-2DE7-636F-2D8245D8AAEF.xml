@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="FD4BD873-73EF-2DE7-636F-2D8245D8AAEF" name="Uslovi_otkazivanja">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:19:14 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_79</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="uslov_id" id="5F669E34-D7B0-9764-7603-8C51A7F89370">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:20:01 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="CFAC1ECC-F1E9-EC5B-7F19-2823EE51445A">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:20:01 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="7DDA170C-1B54-2F62-D43F-AF32BFE29B0F">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:20:01 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1716785-65C6-9B7E-F1CE-60D8811E8F92" name="Uslovi_otkazivanja_PK">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:20:01 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F669E34-D7B0-9764-7603-8C51A7F89370"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

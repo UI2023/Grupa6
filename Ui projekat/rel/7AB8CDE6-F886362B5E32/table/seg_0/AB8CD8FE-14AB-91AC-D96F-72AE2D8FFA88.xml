@@ -44,20 +44,6 @@
 <colAssociation fkAssociation="09C61B57-0463-BDFC-D6E1-0655D95167C9" referredColumn="21E8E582-68B0-CFE5-6326-A7A1A95947C9"/>
 </associations>
 </Column>
-<Column name="Kategorije_najma_Kategorija_najma_id" id="B2392728-276C-EB6C-23EA-653F12A5D5D5">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-30 13:42:01 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="6704F599-CBCF-D1A8-02F3-4A3A639D4E59" referredColumn="70B1DD03-8CE3-BF6E-D0F6-44B22A6D7220"/>
-</associations>
-</Column>
 <Column name="Pogoni_pogon_id" id="39B41A22-C1E5-5001-4CF5-6439ADFDB781">
 <createdBy>lukaj</createdBy>
 <createdTime>2023-10-30 13:43:57 UTC</createdTime>
@@ -93,16 +79,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0712BF35-DBFF-F0E5-B0E4-7C524F9B2C7A"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="82FA20BC-33C0-C113-4479-9B6B5A31B1DB" name="Vozila_Kategorije_najma_FK">
-<createdBy>lukaj</createdBy>
-<createdTime>2023-10-30 13:42:01 UTC</createdTime>
-<ownerDesignName>Ui projekat</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="B2392728-276C-EB6C-23EA-653F12A5D5D5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="63F901B6-DA0C-078F-3638-397AD13CCD37" name="Vozila_Pogoni_FK">

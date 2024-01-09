@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="765D1F14-F403-0527-A2EE-ADE6EABED42C" name="Uslovi_aukcije">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:23:46 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<ordsAlias>table_83</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Aukcija_aukcija_id" id="E5F65C66-21E2-157F-899B-0713341DDC69">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:23:58 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5550862C-4275-5A62-76BB-5BC8B6B5CB41" referredColumn="2D3CC562-A057-76DC-B30B-100E1766FFA3"/>
+</associations>
+</Column>
+<Column name="Uslovi_uslov_id" id="A7D77FAE-B9CA-33CE-8DA3-3FC11E298C97">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:24:02 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C685BFD-1751-2328-9773-557FF99F190F" referredColumn="DF8B33A3-AAE6-82FC-2CB0-A8D8370446C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76296411-B8E0-C674-3991-5ABBC91F2812" name="Uslovi_aukcije_Aukcija_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:23:58 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5F65C66-21E2-157F-899B-0713341DDC69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70E88594-1B95-E292-63C8-AB121228DC26" name="Uslovi_aukcije_Uslovi_FK">
+<createdBy>lukaj</createdBy>
+<createdTime>2024-01-09 06:24:02 UTC</createdTime>
+<ownerDesignName>Ui projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7D77FAE-B9CA-33CE-8DA3-3FC11E298C97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
